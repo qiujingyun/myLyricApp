@@ -1,3 +1,9 @@
 # view AndroidManifest.xml #generated:7
 -keep class com.android.test.MActivity { <init>(...); }
 
+# view res/layout/main.xml #generated:26
+-keep class com.android.test.view.LyricView { <init>(...); }
+
+# view res/layout/main.xml #generated:16
+-keep class com.android.test.view.TitleView { <init>(...); }
+
