@@ -6,13 +6,18 @@ import java.util.List;
 import com.android.test.view.LyricView;
 import com.android.test.view.TitleView;
 
+import android.R.color;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Message;
+import android.text.TextPaint;
+import android.text.TextUtils;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewGroup.LayoutParams;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.BaseAdapter;
@@ -24,6 +29,7 @@ import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.Configuration;
 import android.graphics.Color;
+import android.graphics.Paint.Align;
 import android.media.MediaPlayer;
 import android.os.Handler;
 
@@ -38,9 +44,12 @@ public class MActivity extends Activity {
 	private ListView mylv;
 	private int currentID = 0;
 	ArrayList<String> info;
+	private ListViewAdpter mAdapter;
     
     private String mp3 = "file:///data/app/test.mp3";
     MediaPlayer myMP;
+    
+    private int selectColor = 0xffebec15, unselectColor = 0x00000000;//0xff334455;    
     
     Handler mHandler = new Handler(){
     	
@@ -78,23 +87,31 @@ public class MActivity extends Activity {
         myMP = new MediaPlayer();
         
 		mylv = (ListView) findViewById(R.id.mylistview);
-		info = new ArrayList<String>(){{add("item1");add("item2");add("item3");add("item4");add("item5");}}; 
-		mylv.setAdapter(new ListViewAdpter(getApplicationContext(), info));        
-        
+		info = new ArrayList<String>(){{add("item1aaaaaaaaaaaa");add("item2aaaaaaaaaaaa");add("item3");add("item4");add("item5");add("item6");add("item7");add("item8");add("item9");}};
+		mAdapter = new ListViewAdpter(getApplicationContext(), info);
+		mylv.setAdapter(mAdapter);		
     }
+    
+    //public void setData(ArrayList<String> data) {
+		//info = data;
+	//}
 
 	
 	public boolean dispatchKeyEvent(KeyEvent event) {
 		if (event.getAction() == KeyEvent.ACTION_UP) {
 			switch(event.getKeyCode()){
 			case KeyEvent.KEYCODE_DPAD_UP:
+				Log.e(TAG, "keycode is KEYCODE_DPAD_UP");
 				if (currentID > 0) {
 					currentID--;
+					mAdapter.notifyDataSetChanged();
 				}
 				break;
 			case KeyEvent.KEYCODE_DPAD_DOWN:
-				if (currentID < info.size()) {
+				Log.e(TAG, "keycode is KEYCODE_DPAD_DOWN");
+				if (currentID < (info.size()-1)) {
 					currentID++;
+					mAdapter.notifyDataSetChanged();
 				}				
 				break;
 			case KeyEvent.KEYCODE_DPAD_CENTER:
@@ -112,11 +129,14 @@ public class MActivity extends Activity {
 	public class ListViewAdpter extends BaseAdapter {
 		ArrayList<String> myT;
 		Context context;
-		TextView[] mViews;
+//		TextView[] mViews;
 		
 		public ListViewAdpter(Context context, ArrayList<String> mT) {
 			this.context = context.getApplicationContext();
-			mViews = new TextView[getCount()];
+//			mViews = new TextView[getCount()];			
+//			for (int i = 0; i < getCount(); i++) {
+//				mViews[i]= new TextView(context); 
+//			}
 			myT = mT;
 		}
 		
@@ -125,6 +145,8 @@ public class MActivity extends Activity {
 		}
 		
         public View getItem(int position) {
+        	Log.e(TAG, "getItem position is " + position);
+        	/*
 			TextView mytv = mViews[position];
 			mytv.setTextSize(50);
 			mytv.setTextColor(Color.BLACK);
@@ -134,23 +156,63 @@ public class MActivity extends Activity {
 			}
 			
 			mytv.setText(myT.get(position));
-            return mytv;    
+			*/
+            return null;    
         }    
     
         public long getItemId(int position) {
+        	Log.e(TAG, "getItemId position is " + position);
         	return position;
         }  
 		
 		public View getView(int position, View convertView, ViewGroup parent) {
-				if (position == ((getCount()-1)/2)) {
-					convertView.setBackgroundColor(Color.RED);
+				Log.e(TAG, "getView currentID position is " + currentID + "," +position);
+			
+				if (convertView == null) {
+					Log.e(TAG, "getView position is " + position + " convertView is null");
+					
+					convertView = new TextView(context);
+					((TextView) convertView).setTextSize(30);
+					((TextView) convertView).setTextColor(Color.BLACK);	
+					((TextView) convertView).setGravity(Gravity.CENTER);
+				}	
+				/*				
+				LayoutParams lp = new LayoutParams(convertView.getMeasuredWidth(), 30);
+				convertView.setLayoutParams(lp);				
+			*/	
+				if ((currentID == 0 && position == 0) || (currentID == (info.size()-1) && position == (getCount()-1))) {
+					convertView.setBackgroundColor(selectColor);
+				}else if (currentID != 0 && currentID != (info.size()-1) && position == ((getCount()-1)/2)) {
+					convertView.setBackgroundColor(selectColor);
+				}else {
+					convertView.setBackgroundColor(unselectColor);
 				}
-				convertView.setBackgroundColor(Color.GRAY);
+			
+//				((TextView) convertView).setBackgroundResource(R.drawable.vod_bg);
+
+		        if (currentID >= (myT.size()-1)) {
+		        	position = position + currentID - 2;
+				}else if(currentID != 0) {
+		        	position = position + currentID - 1;
+				}
+		        
+		        /*
+		        Log.e(TAG, "getView current text is " + myT.get(position));
+		        TextPaint paint  = ((TextView) convertView).getPaint();		        
+		        String ellipsizeStr = (String) TextUtils.ellipsize(myT.get(position), (TextPaint) paint, convertView.getMeasuredWidth(), TextUtils.TruncateAt.END);  
+		        
+		        Log.e(TAG, "getView current ellipsizeStr is " + ellipsizeStr);
+		        
+		        ((TextView) convertView).setText(ellipsizeStr);
+		        */
+		        
+		        ((TextView) convertView).setEllipsize(TextUtils.TruncateAt.valueOf("MARQUEE"));
+		        ((TextView) convertView).setSingleLine(true);
+		        ((TextView) convertView).setText(myT.get(position));
 	            return convertView;  
 	    }    
 	}
 
-    
     OnClickListener mListener = new OnClickListener() {
 		
 		@Override
@@ -247,9 +309,13 @@ public class MActivity extends Activity {
     {   
         super.onDestroy();
         Log.d(TAG, "onDestroy");
+        if (spThread != null) {
+        	spThread.interrupt();
+		}
+        if (lrcT != null) {
+        	lrcT.interrupt();
+		}
         
-        spThread.interrupt();
-        lrcT.interrupt();
     }
 
     @Override

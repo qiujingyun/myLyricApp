@@ -1,4 +1,5 @@
 /home/wasu/project/app/bin/classes.dex : \
+/home/wasu/project/app/bin/classes/com/android/test/R$color.class \
 /home/wasu/project/app/bin/classes/com/android/test/view/LyricView$LyricObject.class \
 /home/wasu/project/app/bin/classes/com/android/test/view/LyricView$1.class \
 /home/wasu/project/app/bin/classes/com/android/test/view/TitleView.class \
@@ -17,4 +18,5 @@
 /home/wasu/project/app/bin/classes/com/android/test/BuildConfig.class \
 /home/wasu/project/app/bin/classes/com/android/test/MActivity$ListViewAdpter.class \
 /home/wasu/project/app/bin/classes/com/android/test/MActivity$4.class \
+/home/wasu/project/app/bin/classes/com/android/test/R$dimen.class \
 /home/wasu/project/app/bin/classes/com/android/test/MActivity$2.class \
