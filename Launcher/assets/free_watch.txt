@@ -1,0 +1,16 @@
+{
+    "body": {
+        "result": 0,
+        "freelist":[
+            {
+                "contentType": "36",
+                "freeValue": 5
+            },
+            {
+                "contentType": "37",
+                "freeValue": 10
+            }
+        ],
+        "desc": ""
+    }	
+}

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.wasu.launcher.view.SmoothHorizontalScrollView
+        android:id="@+id/live_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:fadeScrollbars="false"
+        android:overScrollMode="never"
+        android:paddingTop="@dimen/sm_30"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingLeft="@dimen/sm_190"
+            android:paddingRight="182px"
+            android:paddingTop="@dimen/sm_110" >
+
+            <RelativeLayout
+                android:id="@+id/rl_live_video_view"
+                android:layout_width="774px"
+                android:layout_height="434px"
+                android:focusable="true"
+                android:nextFocusDown="@+id/ll_live_often_item_0"
+                android:nextFocusLeft="@+id/rb_live"
+                android:nextFocusRight="@+id/rl_live_hot_playback" >
+
+                <SurfaceView
+                    android:id="@+id/live_surface_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/live_img_surface_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/vedio_littlewindows_default_img" />
+
+                <ImageView
+                    android:id="@+id/live_img_surface_mask"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/live_surface_mask"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/title_live_often"
+                android:layout_width="380px"
+                android:layout_height="86px"
+                android:layout_below="@id/rl_live_video_view"
+                android:layout_marginTop="@dimen/sm_8"
+                android:background="#ffd7d7d7"
+                android:drawableLeft="@drawable/title_icon_medal"
+                android:drawablePadding="@dimen/sm_10"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/sm_20"
+                android:text="@string/live_hot_channel"
+                android:textColor="#ff675bd7"
+                android:textSize="30px" />
+
+            <LinearLayout
+                android:id="@+id/ll_live_often_item_0"
+                android:layout_width="380px"
+                android:layout_height="80px"
+                android:layout_below="@id/title_live_often"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/rb_live"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/live_often_tv_0"
+                    style="@style/lau_live_top_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <com.wasu.launcher.view.MarqueeTextView
+                    android:id="@+id/live_often_epg_0"
+                    style="@style/lau_live_bottom_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_live_often_item_1"
+                android:layout_width="380px"
+                android:layout_height="80px"
+                android:layout_below="@id/ll_live_often_item_0"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/rb_live"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/live_often_tv_1"
+                    style="@style/lau_live_top_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <com.wasu.launcher.view.MarqueeTextView
+                    android:id="@+id/live_often_epg_1"
+                    style="@style/lau_live_bottom_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_live_often_item_2"
+                android:layout_width="380px"
+                android:layout_height="80px"
+                android:layout_below="@id/ll_live_often_item_1"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/rb_live"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/live_often_tv_2"
+                    style="@style/lau_live_top_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <com.wasu.launcher.view.MarqueeTextView
+                    android:id="@+id/live_often_epg_2"
+                    style="@style/lau_live_bottom_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_live_tv_playback"
+                android:layout_width="380px"
+                android:layout_height="326px"
+                android:layout_below="@id/rl_live_video_view"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@id/title_live_often"
+                android:background="@drawable/live_hot_playback_bg"
+                android:focusable="true"
+                android:nextFocusRight="@+id/rl_live_hot_playback" >
+
+                <ImageView
+                    android:layout_width="160px"
+                    android:layout_height="160px"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/sm_20"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_live_playback"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/sm_15"
+                    android:text="@string/live_tv_playback"
+                    android:textColor="@color/lau_white"
+                    android:textSize="36px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_live_hot_playback"
+                android:layout_width="380px"
+                android:layout_height="213px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_live_video_view"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_live_hot_playback"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_hot_playback" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_live_hot_playback_item_0"
+                android:layout_width="380px"
+                android:layout_height="112px"
+                android:layout_below="@id/rl_live_hot_playback"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_live_video_view"
+                android:focusable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/live_hot_playback_tv_0"
+                    style="@style/lau_live_playback_top_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/live_hot_playback_epg_0"
+                    style="@style/lau_live_playback_bottom_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_live_hot_playback_item_1"
+                android:layout_width="380px"
+                android:layout_height="112px"
+                android:layout_below="@id/ll_live_hot_playback_item_0"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_live_video_view"
+                android:focusable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/live_hot_playback_tv_1"
+                    style="@style/lau_live_playback_top_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/live_hot_playback_epg_1"
+                    style="@style/lau_live_playback_bottom_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_live_hot_playback_item_2"
+                android:layout_width="380px"
+                android:layout_height="112px"
+                android:layout_below="@id/ll_live_hot_playback_item_1"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_live_video_view"
+                android:focusable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/live_hot_playback_tv_2"
+                    style="@style/lau_live_playback_top_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/live_hot_playback_epg_2"
+                    style="@style/lau_live_playback_bottom_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_live_hot_playback_item_3"
+                android:layout_width="380px"
+                android:layout_height="112px"
+                android:layout_below="@id/ll_live_hot_playback_item_2"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_live_video_view"
+                android:focusable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/live_hot_playback_tv_3"
+                    style="@style/lau_live_playback_top_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/live_hot_playback_epg_3"
+                    style="@style/lau_live_playback_bottom_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_live_hot_playback_item_4"
+                android:layout_width="380px"
+                android:layout_height="112px"
+                android:layout_below="@id/ll_live_hot_playback_item_3"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_live_video_view"
+                android:focusable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/live_hot_playback_tv_4"
+                    style="@style/lau_live_playback_top_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/live_hot_playback_epg_4"
+                    style="@style/lau_live_playback_bottom_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_live_kanba"
+                android:layout_width="380px"
+                android:layout_height="213px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_live_hot_playback"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_live_kanba"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/img_kanba" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_live_kanba_item_0"
+                android:layout_width="380px"
+                android:layout_height="112px"
+                android:layout_below="@id/rl_live_kanba"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_live_hot_playback"
+                android:focusable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/live_kanba_tv0"
+                    style="@style/lau_live_top_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <com.wasu.launcher.view.MarqueeTextView
+                    android:id="@+id/live_kanba_epg0"
+                    style="@style/lau_live_bottom_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_live_kanba_item_1"
+                android:layout_width="380px"
+                android:layout_height="112px"
+                android:layout_below="@id/ll_live_kanba_item_0"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_live_hot_playback"
+                android:focusable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/live_kanba_tv1"
+                    style="@style/lau_live_top_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <com.wasu.launcher.view.MarqueeTextView
+                    android:id="@+id/live_kanba_epg1"
+                    style="@style/lau_live_bottom_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_live_kanba_item_2"
+                android:layout_width="380px"
+                android:layout_height="112px"
+                android:layout_below="@id/ll_live_kanba_item_1"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_live_hot_playback"
+                android:focusable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/live_kanba_tv2"
+                    style="@style/lau_live_top_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <com.wasu.launcher.view.MarqueeTextView
+                    android:id="@+id/live_kanba_epg2"
+                    style="@style/lau_live_bottom_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_live_kanba_item_3"
+                android:layout_width="380px"
+                android:layout_height="112px"
+                android:layout_below="@id/ll_live_kanba_item_2"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_live_hot_playback"
+                android:focusable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/live_kanba_tv3"
+                    style="@style/lau_live_top_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <com.wasu.launcher.view.MarqueeTextView
+                    android:id="@+id/live_kanba_epg3"
+                    style="@style/lau_live_bottom_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_live_kanba_item_4"
+                android:layout_width="380px"
+                android:layout_height="112px"
+                android:layout_below="@id/ll_live_kanba_item_3"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_live_hot_playback"
+                android:focusable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/live_kanba_tv4"
+                    style="@style/lau_live_top_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <com.wasu.launcher.view.MarqueeTextView
+                    android:id="@+id/live_kanba_epg4"
+                    style="@style/lau_live_bottom_TextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/shadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_focus"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </com.wasu.launcher.view.SmoothHorizontalScrollView>
+
+</RelativeLayout>

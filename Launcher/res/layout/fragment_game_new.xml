@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.wasu.launcher.view.SmoothHorizontalScrollView
+        android:id="@+id/scroll_view_game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:fadeScrollbars="false"
+        android:overScrollMode="never"
+        android:paddingTop="@dimen/sm_30"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingLeft="@dimen/sm_190"
+            android:paddingRight="182px" >
+
+            <RelativeLayout
+                android:id="@+id/rl_game_0"
+                android:layout_width="772px"
+                android:layout_height="380px"
+                android:focusable="true"
+                android:nextFocusDown="@+id/rl_game_3"
+                android:nextFocusLeft="@+id/rb_game" >
+
+                <ImageView
+                    android:layout_width="772px"
+                    android:layout_height="380px"
+                    android:scaleType="fitXY"
+                    android:padding="1px"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_game_0"
+                    android:layout_width="772px"
+                    android:layout_height="380px"
+                    android:scaleType="fitCenter" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_game_3"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_below="@id/rl_game_0"
+                android:layout_marginTop="@dimen/sm_8"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/rb_game" >
+
+                <ImageView
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitXY"
+                    android:padding="1px"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_game_3"
+                    android:layout_width="380px"
+                    android:layout_height="380px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_game_4"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_below="@id/rl_game_0"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@+id/rl_game_3"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitXY"
+                    android:padding="1px"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_game_4"
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitCenter" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_game_1"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@+id/rl_game_0"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitXY"
+                    android:padding="1px"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_game_1"
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitCenter" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_game_5"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_below="@+id/rl_game_1"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@+id/rl_game_4"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitXY"
+                    android:padding="1px"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_game_5"
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitCenter" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_game_2"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@+id/rl_game_1"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitXY"
+                    android:padding="1px"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_game_2"
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitCenter" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_game_6"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_below="@+id/rl_game_2"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@+id/rl_game_5"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitXY"
+                    android:padding="1px"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_game_6"
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitCenter" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_game_7"
+                android:layout_width="772px"
+                android:layout_height="380px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@+id/rl_game_2"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="772px"
+                    android:layout_height="380px"
+                    android:scaleType="fitXY"
+                    android:padding="1px"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_game_7"
+                    android:layout_width="772px"
+                    android:layout_height="380px"
+                    android:scaleType="fitCenter" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_game_9"
+                android:layout_width="772px"
+                android:layout_height="380px"
+                android:layout_below="@+id/rl_game_7"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@+id/rl_game_6"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="772px"
+                    android:layout_height="380px"
+                    android:scaleType="fitXY"
+                    android:padding="1px"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_game_9"
+                    android:layout_width="772px"
+                    android:layout_height="380px"
+                    android:scaleType="fitCenter" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_game_8"
+                android:layout_width="772px"
+                android:layout_height="380px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@+id/rl_game_7"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="772px"
+                    android:layout_height="380px"
+                    android:scaleType="fitXY"
+                    android:padding="1px"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_game_8"
+                    android:layout_width="772px"
+                    android:layout_height="380px"
+                    android:scaleType="fitCenter" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_game_10"
+                android:layout_width="772px"
+                android:layout_height="380px"
+                android:layout_below="@+id/rl_game_8"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@+id/rl_game_9"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="772px"
+                    android:layout_height="380px"
+                    android:scaleType="fitXY"
+                    android:padding="1px"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_game_10"
+                    android:layout_width="772px"
+                    android:layout_height="380px"
+                    android:scaleType="fitCenter" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.wasu.launcher.view.SmoothHorizontalScrollView>
+
+</RelativeLayout>

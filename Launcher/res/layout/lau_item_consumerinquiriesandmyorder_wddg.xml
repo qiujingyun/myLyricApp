@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/sm_15" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="280"
+        android:padding="@dimen/sm_12"
+        android:text="产品名字"
+        android:textColor="#EEE"
+        android:textSize="@dimen/sm_35" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="225"
+        android:padding="@dimen/sm_12"
+        android:text="价格"
+        android:textColor="#EEE"
+        android:textSize="@dimen/sm_35" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="311"
+        android:padding="@dimen/sm_12"
+        android:text="订购生效时间"
+        android:textColor="#EEE"
+        android:textSize="@dimen/sm_35" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="250"
+        android:padding="@dimen/sm_12"
+        android:text="订购失效时间"
+        android:textColor="#EEE"
+        android:textSize="@dimen/sm_35" />
+
+</LinearLayout>

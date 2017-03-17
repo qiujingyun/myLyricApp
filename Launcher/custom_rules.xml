@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<project  
+    name="custom_rules"  
+    default="no" >  
+    <property name="java.compilerargs" value="-encoding UTF-8 "/>
+     <property name="java.target" value="7" />
+    <property name="java.source" value="7" />
+    <property name="aapt.ignore.assets" value="&lt;dir&gt;crunch:!.svn:!.git:.*:&lt;dir&gt;_*:!CVS:!thumbs.db:!picasa.ini:!*.scc:*~" />
+    
+</project> 

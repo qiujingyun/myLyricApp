@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11000000" >
+
+    <RelativeLayout
+        android:layout_width="628px"
+        android:layout_height="384px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/lau_error_bg" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="\t网络出错了!\n请检查你的网线!"
+            android:textColor="#FFEEEEEE"
+            android:textSize="42px" />
+    </RelativeLayout>
+
+</RelativeLayout>

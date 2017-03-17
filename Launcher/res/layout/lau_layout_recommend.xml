@@ -1,0 +1,624 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.wasu.launcher.view.ScrollViewProgress
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadeScrollbars="false"
+        android:overScrollMode="never"
+        android:paddingRight="@dimen/sm_15"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/sm_10" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <FrameLayout
+                    android:id="@+id/fl_re_0"
+                    android:layout_width="@dimen/sm_500"
+                    android:layout_height="@dimen/sm_285"
+                    android:layout_marginLeft="@dimen/sm_20"
+                    android:layout_marginTop="@dimen/sm_10" >
+
+                    <SurfaceView
+                        android:id="@+id/surfaceView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2" />
+
+                    <ImageView
+                        android:id="@+id/im_surfaceView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:background="#b0aeaf"
+                        android:scaleType="center"
+                        android:src="@drawable/lau_default_logo" />
+
+                    <ImageView
+                        android:id="@+id/re_bg_0"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:nextFocusLeft="@+id/rb_recommend"
+                        android:visibility="visible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_re_1"
+                    android:layout_width="@dimen/sm_500"
+                    android:layout_height="@dimen/sm_250"
+                    android:layout_marginRight="@dimen/sm_2"
+                    android:layout_marginTop="@dimen/sm_10"
+                    android:layout_toRightOf="@id/fl_re_0" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:background="#b0aeaf"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lau_default_logo" />
+
+                    <ImageView
+                        android:id="@+id/iv_re_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/re_bg_1"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:nextFocusDown="@+id/re_bg_3"
+                        android:nextFocusRight="@+id/re_bg_1"
+                        android:visibility="visible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_re_2"
+                    android:layout_width="@dimen/sm_500"
+                    android:layout_height="@dimen/sm_210"
+                    android:layout_below="@id/fl_re_0"
+                    android:layout_marginLeft="@dimen/sm_20"
+                    android:layout_marginTop="@dimen/sm_2" >
+
+                    <ImageView
+                        android:id="@+id/re_bg_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:visibility="visible" />
+
+                    <ListView
+                        android:id="@+id/listView"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sm_205"
+                        android:layout_marginLeft="@dimen/sm_4"
+                        android:layout_marginRight="@dimen/sm_4"
+                        android:background="#44444444"
+                        android:divider="#6e6e6e"
+                        android:dividerHeight="@dimen/sm_0"
+                        android:focusableInTouchMode="true"
+                        android:listSelector="@drawable/lau_list_bg_launcher"
+                        android:nextFocusDown="@+id/re_bg_5"
+                        android:nextFocusLeft="@+id/rb_recommend"
+                        android:scrollbars="none"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/sm_2"
+                        android:layout_marginRight="@dimen/sm_2"
+                        android:background="@drawable/tuijian"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_re_0"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/sm_52.5"
+                            android:background="@drawable/lau_list_bg_launcher"
+                            android:focusable="true"
+                            android:gravity="center_vertical"
+                            android:nextFocusLeft="@+id/rb_recommend"
+                            android:paddingLeft="@dimen/sm_15"
+                            android:paddingRight="@dimen/sm_15"
+                            android:singleLine="true"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:text=""
+                            android:textColor="@drawable/lau_text_color_launcher"
+                            android:textSize="@dimen/sm_28" />
+
+                       <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:background="@color/lau_gray" 
+                            android:layout_marginLeft="@dimen/sm_15"
+                            android:layout_marginRight="@dimen/sm_15"/>
+
+                        <TextView
+                            android:id="@+id/tv_re_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/sm_52.5"
+                            android:background="@drawable/lau_list_bg_launcher"
+                            android:focusable="true"
+                            android:gravity="center_vertical"
+                            android:nextFocusLeft="@+id/rb_recommend"
+                            android:paddingLeft="@dimen/sm_15"
+                            android:paddingRight="@dimen/sm_15"
+                            android:singleLine="true"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:text=""
+                            android:textColor="@drawable/lau_text_color_launcher"
+                            android:textSize="@dimen/sm_28" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:background="@color/lau_gray"
+                            android:layout_marginLeft="@dimen/sm_15"
+                            android:layout_marginRight="@dimen/sm_15" />                       
+
+                        <TextView
+                            android:id="@+id/tv_re_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/sm_52.5"
+                            android:background="@drawable/lau_list_bg_launcher"
+                            android:focusable="true"
+                            android:gravity="center_vertical"
+                            android:nextFocusLeft="@+id/rb_recommend"
+                            android:paddingLeft="@dimen/sm_15"
+                            android:paddingRight="@dimen/sm_15"
+                            android:singleLine="true"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:text=""
+                            android:textColor="@drawable/lau_text_color_launcher"
+                            android:textSize="@dimen/sm_28" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:background="@color/lau_gray"
+                            android:layout_marginLeft="@dimen/sm_15"
+                            android:layout_marginRight="@dimen/sm_15"/>
+                                              
+                        <TextView
+                            android:id="@+id/tv_re_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/sm_52"
+                            android:background="@drawable/lau_list_bg_launcher"
+                            android:focusable="true"
+                            android:gravity="center_vertical"
+                            android:nextFocusLeft="@+id/rb_recommend"
+                            android:paddingLeft="@dimen/sm_15"
+                            android:paddingRight="@dimen/sm_15"
+                            android:singleLine="true"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:text=""
+                            android:textColor="@drawable/lau_text_color_launcher"
+                            android:textSize="@dimen/sm_28"  />
+
+                       <View
+                            android:layout_width="match_parent"
+                            android:layout_height="51px"
+                            android:background="@color/lau_gray"
+                            android:layout_marginLeft="@dimen/sm_15"
+                            android:layout_marginRight="@dimen/sm_15"/>   
+                                                 
+                        </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_re_3"
+                    android:layout_width="@dimen/sm_249"
+                    android:layout_height="@dimen/sm_249"
+                    android:layout_below="@id/fl_re_1"
+                    android:layout_toRightOf="@id/fl_re_2" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:background="#b0aeaf"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lau_default_logo" />
+
+                    <ImageView
+                        android:id="@+id/iv_re_3"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/re_bg_3"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:nextFocusDown="@+id/re_bg_7"
+                        android:nextFocusLeft="@+id/tv_re_0"
+                        android:visibility="visible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_re_4"
+                    android:layout_width="@dimen/sm_250"
+                    android:layout_height="@dimen/sm_249"
+                    android:layout_below="@id/fl_re_1"
+                    android:layout_toRightOf="@id/fl_re_3" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:background="#b0aeaf"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lau_default_logo" />
+
+                    <ImageView
+                        android:id="@+id/iv_re_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/re_bg_4"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:nextFocusDown="@+id/re_bg_8"
+                        android:visibility="visible" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/fl_re_2"
+                    android:layout_alignRight="@id/fl_re_4"
+                    android:layout_below="@id/fl_re_4"
+                    android:layout_marginBottom="@dimen/sm_5"
+                    android:layout_marginLeft="@dimen/sm_4"
+                    android:layout_marginTop="@dimen/sm_5"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/sm_10"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:layerType="software"
+                        android:src="@drawable/lau_shape_line" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="大家都在看"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/sm_18" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/sm_10"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layerType="software"
+                        android:src="@drawable/lau_shape_line" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_lv_8"
+                    android:layout_width="@dimen/sm_249"
+                    android:layout_height="@dimen/sm_246"
+                    android:layout_below="@id/ll_line"
+                    android:layout_marginLeft="@dimen/sm_20" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:background="#b0aeaf"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lau_default_logo" />
+
+                    <ImageView
+                        android:id="@+id/iv_lv_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/re_bg_5"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:nextFocusLeft="@+id/rb_recommend"
+                        android:visibility="visible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_lv_9"
+                    android:layout_width="@dimen/sm_249"
+                    android:layout_height="@dimen/sm_246"
+                    android:layout_below="@id/ll_line"
+                    android:layout_toRightOf="@+id/fl_lv_8" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:background="#b0aeaf"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lau_default_logo" />
+
+                    <ImageView
+                        android:id="@+id/iv_lv_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/re_bg_6"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:visibility="visible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_lv_10"
+                    android:layout_width="@dimen/sm_249"
+                    android:layout_height="@dimen/sm_246"
+                    android:layout_below="@id/ll_line"
+                    android:layout_toRightOf="@+id/fl_lv_9" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:background="#b0aeaf"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lau_default_logo" />
+
+                    <ImageView
+                        android:id="@+id/iv_lv_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/re_bg_7"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:nextFocusUp="@id/re_bg_3"
+                        android:visibility="visible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_lv_11"
+                    android:layout_width="@dimen/sm_249"
+                    android:layout_height="@dimen/sm_246"
+                    android:layout_below="@id/ll_line"
+                    android:layout_toRightOf="@+id/fl_lv_10" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:background="#b0aeaf"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lau_default_logo" />
+
+                    <ImageView
+                        android:id="@+id/iv_lv_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/re_bg_8"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:nextFocusRight="@+id/re_bg_8"
+                        android:nextFocusUp="@+id/re_bg_4"
+                        android:visibility="visible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_lv_12"
+                    android:layout_width="@dimen/sm_249"
+                    android:layout_height="@dimen/sm_246"
+                    android:layout_below="@id/fl_lv_8"
+                    android:layout_marginLeft="@dimen/sm_20" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:background="#b0aeaf"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lau_default_logo" />
+
+                    <ImageView
+                        android:id="@+id/iv_lv_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/re_bg_9"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:nextFocusLeft="@+id/rb_recommend"
+                        android:visibility="visible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_lv_13"
+                    android:layout_width="@dimen/sm_249"
+                    android:layout_height="@dimen/sm_246"
+                    android:layout_below="@id/fl_lv_9"
+                    android:layout_toRightOf="@+id/fl_lv_12" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:background="#b0aeaf"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lau_default_logo" />
+
+                    <ImageView
+                        android:id="@+id/iv_lv_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/re_bg_10"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:visibility="visible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_lv_14"
+                    android:layout_width="@dimen/sm_249"
+                    android:layout_height="@dimen/sm_246"
+                    android:layout_below="@id/fl_lv_10"
+                    android:layout_toRightOf="@+id/fl_lv_13" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:background="#b0aeaf"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lau_default_logo" />
+
+                    <ImageView
+                        android:id="@+id/iv_lv_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/re_bg_11"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:visibility="visible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_lv_15"
+                    android:layout_width="@dimen/sm_249"
+                    android:layout_height="@dimen/sm_246"
+                    android:layout_below="@id/fl_lv_11"
+                    android:layout_toRightOf="@+id/fl_lv_14" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:background="#b0aeaf"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lau_default_logo" />
+
+                    <ImageView
+                        android:id="@+id/iv_re_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/sm_2"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/re_bg_12"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:nextFocusRight="@+id/re_bg_12"
+                        android:visibility="visible" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_below="@+id/fl_lv_15" >
+                </FrameLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </com.wasu.launcher.view.ScrollViewProgress>
+
+    <com.wasu.launcher.view.VerticalSeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="@dimen/sm_16"
+        android:layout_height="@dimen/sm_400"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/sm_30"
+        android:layout_marginRight="@dimen/sm_28"
+        android:layout_marginTop="@dimen/sm_50"
+        android:background="@null"
+        android:focusable="false"
+        android:max="100"
+        android:thumbOffset="1dip"
+        android:progress="0"
+        android:progressDrawable="@drawable/lau_scrollbar_track"
+        android:thumb="@drawable/lau_scrollbar_thumb" >
+    </com.wasu.launcher.view.VerticalSeekBar>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<EIT st="2014-06-12 00:00:00" et="2014-06-12 23:59:59" version="41">
+    <ch sid="908" tsid="501">
+        <e name="购物" st="2014-06-12 00:50:00" et="2014-06-12 01:20:00"/>
+        <e name="购物" st="2014-06-12 01:20:00" et="2014-06-12 01:55:00"/>
+        <e name="霓裳艳影(73)" st="2014-06-12 01:55:00" et="2014-06-12 02:00:00"/>
+        <e name="玩转地球" st="2014-06-12 02:00:00" et="2014-06-12 02:28:00"/>
+        <e name="美丽俏佳人" st="2014-06-12 02:28:00" et="2014-06-12 03:03:00"/>
+        <e name="第一时尚" st="2014-06-12 03:03:00" et="2014-06-12 03:30:00"/>
+        <e name="垫片" st="2014-06-12 03:30:00" et="2014-06-12 03:38:00"/>
+        <e name="(我家厨房)特别节目" st="2014-06-12 03:38:00" et="2014-06-12 04:36:00"/>
+    </ch>
+    
+    <ch sid="108" tsid="502">
+        <e name="a1" st="2014-06-12 00:50:00" et="2014-06-12 01:20:00"/>
+        <e name="a2" st="2014-06-12 01:20:00" et="2014-06-12 01:55:00"/>
+        <e name="a3" st="2014-06-12 01:55:00" et="2014-06-12 02:00:00"/>
+        <e name="a4" st="2014-06-12 02:00:00" et="2014-06-12 02:28:00"/>
+        <e name="a5" st="2014-06-12 02:28:00" et="2014-06-12 03:03:00"/>
+        <e name="a6" st="2014-06-12 03:03:00" et="2014-06-12 03:30:00"/>
+        <e name="a7" st="2014-06-12 03:30:00" et="2014-06-12 03:38:00"/>
+        <e name="a8" st="2014-06-12 03:38:00" et="2014-06-12 04:36:00"/>
+    </ch>
+</EIT>

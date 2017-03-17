@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/sm_267"
+    android:layout_height="@dimen/sm_252" >
+
+    <ImageView
+        android:id="@+id/item_im_bus"
+        android:layout_width="@dimen/sm_267"
+        android:layout_height="@dimen/sm_252"
+        android:scaleType="fitXY"
+        android:src="@drawable/xz_ic_launcher" />
+
+    <TextView
+        android:id="@+id/item_tv_bus"
+        android:layout_width="@dimen/sm_267"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FFF"
+        android:textSize="@dimen/sm_20" />
+
+</RelativeLayout>

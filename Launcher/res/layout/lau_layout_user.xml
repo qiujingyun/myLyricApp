@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.wasu.launcher.view.ScrollViewProgress
+        android:id="@+id/scrollprogress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="false"
+        android:overScrollMode="never"
+        android:paddingLeft="@dimen/sm_12"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <FrameLayout
+                    android:id="@+id/frameLayout1"
+                    android:layout_width="@dimen/sm_500"
+                    android:layout_height="@dimen/sm_249"
+                    android:layout_marginLeft="@dimen/sm_20"
+                    android:layout_marginTop="@dimen/sm_20" >
+
+                    <ImageView
+                        style="@style/lau_ImageStyle_default_logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <ImageView
+                        android:id="@+id/us_vd_0"
+                        style="@style/lau_Image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:nextFocusLeft="@+id/rb_user" />
+
+                    <ImageView
+                        android:id="@+id/us_bg_0"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:nextFocusDown="@+id/us_bg_2"
+                        android:nextFocusLeft="@id/rb_user"
+                        android:nextFocusRight="@+id/us_bg_1" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout2"
+                    android:layout_width="@dimen/sm_498"
+                    android:layout_height="@dimen/sm_249"
+                    android:layout_marginTop="@dimen/sm_20"
+                    android:layout_toRightOf="@+id/frameLayout1" >
+
+                    <ImageView
+                        style="@style/lau_ImageStyle_default_logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <ImageView
+                        android:id="@+id/us_vd_1"
+                        style="@style/lau_Image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <ImageView
+                        android:id="@+id/us_bg_1"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout3"
+                    android:layout_width="@dimen/sm_249"
+                    android:layout_height="@dimen/sm_249"
+                    android:layout_below="@+id/frameLayout1"
+                    android:layout_marginLeft="@dimen/sm_20" >
+
+                    <ImageView
+                        style="@style/lau_ImageStyle_default_logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <ImageView
+                        android:id="@+id/us_vd_2"
+                        style="@style/lau_Image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lau_us_xfcx" />
+
+                    <ImageView
+                        android:id="@+id/us_bg_2"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:nextFocusLeft="@id/rb_user" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout4"
+                    android:layout_width="@dimen/sm_250"
+                    android:layout_height="@dimen/sm_249"
+                    android:layout_below="@+id/frameLayout1"
+                    android:layout_toRightOf="@+id/frameLayout3" >
+
+                    <ImageView
+                        style="@style/lau_ImageStyle_default_logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <ImageView
+                        android:id="@+id/us_vd_3"
+                        style="@style/lau_Image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lau_us_wddg" />
+
+                    <ImageView
+                        android:id="@+id/us_bg_3"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout5"
+                     android:layout_width="@dimen/sm_500"
+                    android:layout_height="@dimen/sm_249"
+                    android:layout_below="@+id/frameLayout1"
+                    android:layout_toRightOf="@+id/frameLayout4" >
+
+                    <ImageView
+                        style="@style/lau_ImageStyle_default_logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <ImageView
+                        android:id="@+id/us_vd_4"
+                        style="@style/lau_Image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lau_wasu_smart_home" />
+
+                    <ImageView
+                        android:id="@+id/us_bg_4"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </FrameLayout>
+
+<!--                 <FrameLayout
+                    android:id="@+id/frameLayout6"
+                    android:layout_width="@dimen/sm_249"
+                    android:layout_height="@dimen/sm_249"
+                    android:layout_below="@+id/frameLayout1"
+                    android:layout_toRightOf="@+id/frameLayout5" >
+
+                    <ImageView
+                        style="@style/lau_ImageStyle_default_logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <ImageView
+                        android:id="@+id/us_vd_5"
+                        style="@style/lau_Image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lau_help" />
+
+                    <ImageView
+                        android:id="@+id/us_bg_5"
+                        style="@style/lau_ImageStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </FrameLayout> -->
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/frameLayout5" >
+                </FrameLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </com.wasu.launcher.view.ScrollViewProgress>
+
+    <com.wasu.launcher.view.VerticalSeekBar
+        android:id="@+id/vod_seekBar"
+        android:layout_width="@dimen/sm_16"
+        android:layout_height="@dimen/sm_400"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/sm_30"
+        android:layout_marginRight="@dimen/sm_28"
+        android:layout_marginTop="@dimen/sm_50"
+        android:background="@null"
+        android:focusable="false"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/lau_scrollbar_track"
+        android:thumb="@drawable/lau_scrollbar_thumb"
+        android:thumbOffset="@dimen/sm_0" >
+    </com.wasu.launcher.view.VerticalSeekBar>
+
+</RelativeLayout>

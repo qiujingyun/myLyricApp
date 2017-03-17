@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/vod_lv"
+            android:layout_width="@dimen/sm_320"
+            android:layout_height="fill_parent"
+            android:background="@drawable/vod_bg">
+           
+        
+            <ListView
+                android:id="@+id/mylistview"
+                android:layout_alignParentBottom="true"
+                android:layout_width="@dimen/sm_320"
+                android:layout_height="wrap_content" 
+                android:divider="#00000000"  
+                android:background="@drawable/lau_fl_bg"
+                android:dividerHeight="0dip"
+                android:nextFocusRight="@+id/t1"
+                android:nextFocusDown="@+id/mylistview"
+                android:nextFocusLeft="@+id/mylistview"
+                android:nextFocusUp="@+id/mylistview"
+                android:scrollbars="none"
+                android:focusable="true"
+                android:listSelector="@android:color/transparent"
+                android:cacheColorHint="@android:color/transparent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="40dp" >
+            </ListView>    
+        </RelativeLayout> 
+        
+        <LinearLayout
+            android:id="@+id/xz"
+            android:layout_width="@dimen/sm_200"
+            android:layout_height="@dimen/sm_160"
+            android:paddingLeft="10dip"
+            android:visibility="gone"
+            android:focusable="true"
+            android:background="@drawable/vod_bg" 
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="@dimen/sm_200"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/testview"
+                android:paddingTop="5dip"
+                android:nextFocusUp="@+id/t1"
+                android:nextFocusRight="@+id/t1"
+                android:nextFocusLeft="@+id/mylistview"
+                android:nextFocusDown="@+id/t2"
+                android:paddingBottom="5dip"
+                android:focusable="true"
+                android:text="@string/play_model_seq"
+                android:textSize="@dimen/sm_30" />
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="@dimen/sm_200"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/testview"
+                android:nextFocusUp="@+id/t1"
+                android:nextFocusRight="@+id/t2"
+                android:nextFocusLeft="@+id/mylistview"
+                android:nextFocusDown="@+id/t3"
+                android:paddingTop="5dip"          
+                android:paddingBottom="5dip"
+                android:focusable="true"             
+                android:text="@string/play_model_single"
+                android:textSize="@dimen/sm_30" />
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="@dimen/sm_200"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/testview"
+                android:nextFocusUp="@+id/t2"
+                android:nextFocusRight="@+id/t3"
+                android:nextFocusLeft="@+id/mylistview"
+                android:nextFocusDown="@+id/t3"
+                android:paddingTop="5dip"
+                android:paddingBottom="5dip" 
+                android:focusable="true"               
+                android:text="@string/play_model_random"
+                android:textSize="@dimen/sm_30" />
+        </LinearLayout>
+</RelativeLayout>

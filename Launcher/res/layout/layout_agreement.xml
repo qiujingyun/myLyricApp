@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lau__wasu_background"
+     >
+   
+       <com.wasu.launcher.view.ScrollViewProgress
+        android:id="@+id/scrollview_agre"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sm_634"
+        android:fadeScrollbars="false"
+        android:overScrollMode="never"
+        android:layout_marginTop="@dimen/sm_20"
+        android:paddingRight="@dimen/sm_15"
+        android:scrollbars="none"
+       >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+           
+ <ImageView 
+         android:id="@+id/fuwu"
+         android:layout_width="wrap_content"
+         android:layout_height="@dimen/sm_1092"
+         android:background="@drawable/fuwuxieyi"
+         android:focusable="true" />
+ </LinearLayout>
+          
+    </com.wasu.launcher.view.ScrollViewProgress>
+
+   <com.wasu.launcher.view.VerticalSeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="@dimen/sm_5"
+        android:layout_height="@dimen/sm_400"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/sm_30"
+        android:layout_marginRight="@dimen/sm_28"
+        android:layout_marginTop="@dimen/sm_50"
+        android:background="@drawable/lau_scrollbar_track"
+        android:focusable="false"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@null"
+        android:thumb="@drawable/lau_scrollbar_thumb" >
+    </com.wasu.launcher.view.VerticalSeekBar>
+       
+        <Button 
+           android:id="@+id/agreed_btn"
+           style="@style/ButtonStyle"
+           android:layout_gravity="center_horizontal"
+             android:layout_width="@dimen/sm_110"
+             android:layout_height="@dimen/sm_33"
+             android:layout_below="@+id/scrollview_agre"
+            
+             android:layout_marginTop="@dimen/sm_10"
+            android:layout_marginLeft="@dimen/sm_480"
+             android:text="@string/tongyi"
+             android:textSize="@dimen/sm_20"/>
+        
+           <Button 
+           android:id="@+id/no_agreed_btn"
+           style="@style/ButtonStyle"
+           android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/sm_110"
+            android:layout_height="@dimen/sm_33"                                                                                                              
+            android:layout_marginLeft="@dimen/sm_100"
+            android:layout_alignTop="@+id/agreed_btn"
+            android:layout_toRightOf="@+id/agreed_btn"
+             android:text="@string/butongyi"
+             android:textSize="@dimen/sm_20"/>
+ 
+
+</RelativeLayout>

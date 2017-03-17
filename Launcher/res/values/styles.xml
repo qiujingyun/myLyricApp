@@ -1,0 +1,152 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="lau_AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="lau_AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="lau_TitleButton">
+        <item name="android:textSize">@dimen/sm_28</item>
+        <item name="android:textColorHighlight">@color/lau_white</item>
+        <item name="android:textColor">@color/lau_white</item>
+        <item name="android:background">@drawable/lau_title_button_selector</item>
+    </style>
+
+    <style name="TitleButton">
+        <item name="android:textSize">@dimen/sm_28</item>
+        <item name="android:textColorHighlight">@color/lau_white</item>
+        <item name="android:textColor">@drawable/lau_title_textcolor_selector</item>
+        <item name="android:background">@drawable/lau_title_button_selector</item>
+    </style>
+
+    <!-- 样式 -->
+    <style name="lau_Image">
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_margin">@dimen/sm_2</item>
+    </style>
+    <!-- 选择背景样式 -->
+    <style name="lau_ImageStyle">
+        <item name="android:background">@drawable/lau_fl_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <!-- 背景默认背景样式 -->
+    <style name="lau_ImageStyle_default_logo">
+        <item name="android:src">@drawable/lau_default_logo</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_margin">@dimen/sm_2</item>
+        <item name="android:background">#FFb0aeaf</item>
+    </style>
+     <style name="lau_ImageStyle_default_background">
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_margin">@dimen/sm_2</item>
+        <item name="android:background">#FFb0aeaf</item>
+    </style>
+
+    <style name="lau_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@null</item>
+    </style>
+    <!-- 选择按钮样式 -->
+    <style name="ButtonStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <!-- 选择输入样式 -->
+    <style name="EditTextStyle">
+        <item name="android:background">@drawable/bg_edittext</item>
+        <item name="android:focusable">true</item>
+        <item name="android:maxLength">11</item>
+        <!-- <item name="android:numeric">integer</item> -->
+        <item name="android:textColor">@color/lau_black</item>
+    </style>
+    <!-- 选择下拉框样式 -->
+    <style name="SpinnerStyle">
+
+        <!-- <item name="android:background">@drawable/bg_spinner</item> -->
+        <item name="android:focusable">true</item>
+        <item name="android:textSize">@dimen/sm_23</item>
+        <item name="android:textColor">@color/lau_black</item>
+    </style>
+        <style name="lau_recommend_TextStyle_LG">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/sm_20</item>
+        <item name="android:textColor">@color/lau_black</item>
+        <item name="android:textSize">30px</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#ffd7d7d7</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+    
+    <style name="lau_recommend_TextStyle_DG">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/sm_20</item>
+        <item name="android:textColor">@color/lau_white</item>
+        <item name="android:textSize">30px</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#ff4a575e</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+    
+    <style name="lau_live_top_TextStyle">
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingLeft">@dimen/sm_20</item>
+        <item name="android:paddingRight">@dimen/sm_20</item>
+        <item name="android:textColor">@color/lau_black</item>
+        <item name="android:textSize">30px</item>
+        <item name="android:background">#ffd7d7d7</item>
+    </style>
+    
+    <style name="lau_live_bottom_TextStyle">
+        <item name="android:gravity">top</item>
+        <item name="android:paddingLeft">@dimen/sm_20</item>
+        <item name="android:paddingRight">@dimen/sm_20</item>
+        <item name="android:textColor">@color/lau_black</item>
+        <item name="android:textSize">24px</item>
+        <item name="android:background">#ffd7d7d7</item>
+    </style>
+    
+    <style name="lau_live_playback_top_TextStyle">
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingLeft">@dimen/sm_20</item>
+        <item name="android:paddingRight">@dimen/sm_20</item>
+        <item name="android:textColor">@color/lau_white</item>
+        <item name="android:textSize">30px</item>
+        <item name="android:background">#ff4a575e</item>
+    </style>
+    
+    <style name="lau_live_playback_bottom_TextStyle">
+        <item name="android:gravity">top</item>
+        <item name="android:paddingLeft">@dimen/sm_20</item>
+        <item name="android:paddingRight">@dimen/sm_20</item>
+        <item name="android:textColor">@color/lau_white</item>
+        <item name="android:textSize">24px</item>
+        <item name="android:background">#ff4a575e</item>
+    </style>
+
+</resources>

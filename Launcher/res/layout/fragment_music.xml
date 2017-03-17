@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.wasu.launcher.view.SmoothHorizontalScrollView
+        android:id="@+id/scroll_view_music"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:fadeScrollbars="false"
+        android:overScrollMode="never"
+        android:paddingTop="@dimen/sm_30"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="2000px"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingLeft="@dimen/sm_190"
+            android:paddingRight="182px" >
+
+            <RelativeLayout
+                android:id="@+id/rl_music_platform"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/rb_music" >
+
+                <ImageView
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lau_default_logo" />
+                
+                <ImageView
+                    android:id="@+id/iv_music_platform"
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/sm_15"
+                    android:text=""
+                    android:textColor="@color/lau_white"
+                    android:textSize="36px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_music_recent"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_below="@id/rl_music_platform"
+                android:layout_marginTop="@dimen/sm_8"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/rb_music"
+                android:nextFocusRight="@+id/rl_music_lib" >
+                
+                <ImageView
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_music_recent"
+                    android:layout_width="380px"
+                    android:layout_height="380px"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/sm_15"
+                    android:text=""
+                    android:textColor="@color/lau_white"
+                    android:textSize="36px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_music_lib"
+                android:layout_width="380px"
+                android:layout_height="503px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_music_platform"
+                android:focusable="true"
+                android:nextFocusDown="@+id/tv_music_rank_0" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lau_default_logo" />
+                
+                <ImageView
+                    android:id="@+id/iv_music_lib"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_music_rank"
+                android:layout_width="380px"
+                android:layout_height="269px"
+                android:layout_below="@id/rl_music_lib"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_music_recent"
+                android:background="#ff4a575e" >
+
+                <TextView
+                    android:id="@+id/tv_music_rank_0"
+                    style="@style/lau_recommend_TextStyle_DG"
+                    android:layout_width="match_parent"
+                    android:layout_height="67px" />
+
+                <TextView
+                    android:id="@+id/tv_music_rank_1"
+                    style="@style/lau_recommend_TextStyle_DG"
+                    android:layout_width="match_parent"
+                    android:layout_height="67px"
+                    android:layout_below="@id/tv_music_rank_0" />
+
+                <TextView
+                    android:id="@+id/tv_music_rank_2"
+                    style="@style/lau_recommend_TextStyle_DG"
+                    android:layout_width="match_parent"
+                    android:layout_height="67px"
+                    android:layout_below="@id/tv_music_rank_1" />
+
+                <TextView
+                    android:id="@+id/tv_music_rank_3"
+                    style="@style/lau_recommend_TextStyle_DG"
+                    android:layout_width="match_parent"
+                    android:layout_height="67px"
+                    android:layout_below="@id/tv_music_rank_2"
+                    android:nextFocusDown="@+id/tv_music_rank_3" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_music_mv"
+                android:layout_width="380px"
+                android:layout_height="503px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_music_lib"
+                android:focusable="true"
+                android:nextFocusDown="@+id/tv_music_mv_rank_0" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lau_default_logo" />
+                
+                <ImageView
+                    android:id="@+id/iv_music_mv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_music_mv_rank"
+                android:layout_width="380px"
+                android:layout_height="269px"
+                android:layout_below="@id/rl_music_mv"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_music_rank"
+                android:background="#ff4a575e" >
+
+                <TextView
+                    android:id="@+id/tv_music_mv_rank_0"
+                    style="@style/lau_recommend_TextStyle_DG"
+                    android:layout_width="match_parent"
+                    android:layout_height="67px" />
+
+                <TextView
+                    android:id="@+id/tv_music_mv_rank_1"
+                    style="@style/lau_recommend_TextStyle_DG"
+                    android:layout_width="match_parent"
+                    android:layout_height="67px"
+                    android:layout_below="@id/tv_music_mv_rank_0" />
+
+                <TextView
+                    android:id="@+id/tv_music_mv_rank_2"
+                    style="@style/lau_recommend_TextStyle_DG"
+                    android:layout_width="match_parent"
+                    android:layout_height="67px"
+                    android:layout_below="@id/tv_music_mv_rank_1" />
+
+                <TextView
+                    android:id="@+id/tv_music_mv_rank_3"
+                    style="@style/lau_recommend_TextStyle_DG"
+                    android:layout_width="match_parent"
+                    android:layout_height="67px"
+                    android:layout_below="@id/tv_music_mv_rank_2"
+                    android:nextFocusDown="@+id/tv_music_mv_rank_3" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_music_ad"
+                android:layout_width="380px"
+                android:layout_height="772px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_music_mv"
+                android:focusable="true" >
+                
+                <ImageView
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:scaleType="fitXY"
+	                android:padding="1px"
+	                android:src="@drawable/lau_default_logo" />
+                
+                <ImageView
+                    android:id="@+id/iv_music_ad"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:scaleType="fitXY" />
+                
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.wasu.launcher.view.SmoothHorizontalScrollView>
+
+</RelativeLayout>

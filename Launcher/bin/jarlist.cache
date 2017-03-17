@@ -1,0 +1,11 @@
+# cache for current jar dependency. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1487578256000 110747 e9b63380f3a242dbdbf103a2355ad7e43bad17cb /home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/imagepipeline/libs/library-2.4.0.jar
+1487578247000 110747 e9b63380f3a242dbdbf103a2355ad7e43bad17cb /home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/imagepipeline-base/libs/library-2.4.0.jar
+1487578255000 1421457 fb6b7b885e8f62731e3f2fb9e64970e2d1d5ef5b /home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/SDK_OTT/libs/android-support-v4.jar
+1487578255000 1421457 fb6b7b885e8f62731e3f2fb9e64970e2d1d5ef5b /home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/drawee/libs/android-support-v4.jar
+1487578256000 1421457 fb6b7b885e8f62731e3f2fb9e64970e2d1d5ef5b /home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/imagepipeline/libs/android-support-v4.jar
+1487578247000 1421457 fb6b7b885e8f62731e3f2fb9e64970e2d1d5ef5b /home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/imagepipeline-base/libs/android-support-v4.jar
+1487578256000 47225 129874135e6081269ace2312092031558865de12 /home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/imagepipeline/libs/bolts-android-1.1.4.jar
+1487578247000 47225 129874135e6081269ace2312092031558865de12 /home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/imagepipeline-base/libs/bolts-android-1.1.4.jar

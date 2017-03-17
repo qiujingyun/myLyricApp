@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.wasu.launcher.view.SmoothHorizontalScrollView
+        android:id="@+id/personal_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:fadeScrollbars="false"
+        android:overScrollMode="never"
+        android:paddingTop="@dimen/sm_30"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingTop="@dimen/sm_110"
+            android:paddingLeft="@dimen/sm_190"
+            android:paddingRight="182px" >
+            
+            <RelativeLayout
+                android:id="@+id/rl_personal_payment"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:nextFocusLeft="@+id/rb_user"
+                android:focusable="true"
+                android:background="@drawable/personal_payment" >
+                
+                <TextView
+                    android:id="@+id/txt_personal_payment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20px"
+                    android:text="@string/personal_payment"
+                    android:textColor="@color/lau_white"
+                    android:textSize="36px" />
+                
+                <LinearLayout 
+                    android:id="@+id/ll_user_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@id/txt_personal_payment"
+                    android:layout_marginBottom="@dimen/sm_5"
+                    android:orientation="horizontal"
+                    android:visibility="invisible">
+                    
+                    <TextView 
+	                    android:id="@+id/txt_user_balance"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="@string/personal_user_balance"
+	                    android:textColor="@color/lau_white"
+	                    android:textSize="26px" />
+                    
+                    <TextView 
+	                    android:id="@+id/txt_user_balance_value"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="95.00元"
+	                    android:textColor="@color/lau_white"
+	                    android:textSize="30px" />
+                </LinearLayout>
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/rl_personal_help"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_below="@id/rl_personal_payment"
+                android:nextFocusLeft="@+id/rb_user"
+                android:layout_marginTop="@dimen/sm_8"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/personal_help" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20px"
+                    android:text="@string/personal_help"
+                    android:textColor="@color/lau_white"
+                    android:textSize="36px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_personal_order"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_personal_payment"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/personal_order" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20px"
+                    android:text="@string/personal_order"
+                    android:textColor="@color/lau_white"
+                    android:textSize="36px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_personal_history"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_below="@id/rl_personal_order"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_personal_help"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/personal_history" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20px"
+                    android:text="@string/personal_history"
+                    android:textColor="@color/lau_white"
+                    android:textSize="36px" />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/rl_personal_smart"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_personal_order"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/personal_smart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20px"
+                    android:textColor="@color/lau_white"
+                    android:textSize="36px"
+                    android:text="@string/personal_smart" />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/rl_personal_collection"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_below="@id/rl_personal_smart"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_personal_history"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/personal_collection" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20px"
+                    android:text="@string/personal_collection"
+                    android:textColor="@color/lau_white"
+                    android:textSize="36px" />
+            </RelativeLayout>
+
+            <RelativeLayout 
+                android:id="@+id/rl_personal_rec"
+                android:layout_width="380px"
+                android:layout_height="772px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_personal_smart"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/rl_personal_smart" >
+                
+                <ImageView 
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:padding="1px"
+                    android:src="@drawable/lau_default_logo"/>
+                
+                <ImageView 
+                    android:id="@+id/iv_personal_rec"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"/>
+            </RelativeLayout>
+            
+            <ImageView
+                android:id="@+id/shadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_focus"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </com.wasu.launcher.view.SmoothHorizontalScrollView>
+
+</RelativeLayout>

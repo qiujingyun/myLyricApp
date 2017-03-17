@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="380px"
+    android:layout_height="380px"
+    android:focusable="true" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="1px"
+        android:scaleType="fitXY"
+        android:src="@drawable/lau_default_logo" />
+
+    <ImageView
+        android:id="@+id/iv_rec_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>

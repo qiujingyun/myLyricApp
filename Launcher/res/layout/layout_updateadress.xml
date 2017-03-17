@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lau__wasu_background" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/sm_250"
+        android:layout_marginLeft="@dimen/sm_100"
+        android:layout_marginRight="@dimen/sm_100"
+        android:layout_marginTop="@dimen/sm_40"
+        android:background="#56ffffff" >
+
+        <TextView
+            android:id="@+id/rb_address"
+            style="@style/TitleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/sm_310"
+            android:layout_marginTop="@dimen/sm_20"
+            android:focusable="true"
+            android:nextFocusDown="@+id/spin_province"
+            android:text="@string/updateaddress"
+            android:textSize="@dimen/sm_40" />
+
+        <TextView
+            android:id="@+id/rb_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rb_address"
+            android:layout_below="@+id/rb_address"
+            android:layout_marginTop="@dimen/sm_7"
+            android:text="@string/prompt"
+            android:textColor="#6C6C6C"
+            android:textSize="@dimen/sm_20" />
+
+        <TextView
+            android:id="@+id/txt_address"
+            android:layout_width="@dimen/sm_110"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rb_prompt"
+            android:layout_marginLeft="@dimen/sm_140"
+            android:layout_marginTop="@dimen/sm_30"
+            android:text="@string/address"
+            android:textColor="#000000"
+            android:textSize="@dimen/sm_25" />
+
+        <TextView
+            android:id="@+id/countries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txt_address"
+            android:layout_alignLeft="@+id/rb_prompt"
+            android:layout_toRightOf="@+id/txt_address"
+            android:text="@string/china"
+            android:textColor="#000000"
+            android:textSize="@dimen/sm_25" />
+
+        <Spinner
+            android:id="@+id/spin_province"
+            style="@style/SpinnerStyle"
+            android:layout_width="@dimen/sm_105"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/countries"
+            android:layout_marginLeft="@dimen/sm_10"
+            android:layout_toRightOf="@+id/countries"
+            android:nextFocusRight="@+id/spin_city"
+            android:prompt="@string/province" />
+
+        <TextView
+            android:id="@+id/txt_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/spin_province"
+            android:layout_marginLeft="@dimen/sm_30"
+            android:layout_toRightOf="@+id/spin_province"
+            android:text="@string/city"
+            android:textColor="#000000"
+            android:textSize="@dimen/sm_25" />
+
+        <Spinner
+            android:id="@+id/spin_city"
+            style="@style/SpinnerStyle"
+            android:layout_width="@dimen/sm_105"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/txt_city"
+            android:layout_marginLeft="@dimen/sm_7"
+            android:layout_toRightOf="@+id/txt_city"
+            android:nextFocusRight="@+id/spin_county"
+            android:prompt="@string/city" />
+
+        <TextView
+            android:id="@+id/txt_county"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/spin_city"
+            android:layout_marginLeft="@dimen/sm_30"
+            android:layout_toRightOf="@+id/spin_city"
+            android:text="@string/county"
+            android:textColor="#000000"
+            android:textSize="@dimen/sm_25" />
+
+        <Spinner
+            android:id="@+id/spin_county"
+            android:layout_width="@dimen/sm_105"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/txt_county"
+            android:layout_marginLeft="@dimen/sm_7"
+            android:layout_toRightOf="@+id/txt_county"
+         android:focusable="true"
+            android:prompt="@string/county"
+            android:spinnerMode="dropdown"
+            android:textColor="#000000"
+            android:textSize="@dimen/sm_25" />
+
+        <Button
+            android:id="@+id/post_btn"
+            style="@style/ButtonStyle"
+            android:layout_width="@dimen/sm_179"
+            android:layout_height="@dimen/sm_58"
+            android:layout_alignLeft="@+id/rb_prompt"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/sm_20"
+            android:layout_marginLeft="@dimen/sm_134"
+            android:paddingBottom="@dimen/sm_16"
+            android:paddingLeft="@dimen/sm_48"
+            android:paddingRight="@dimen/sm_48"
+            android:paddingTop="@dimen/sm_16"
+            android:text="@string/post_upate"
+            android:textSize="@dimen/sm_20" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+    {
+      "placeCode": "6",
+      "type": "1",
+      "infoList": [
+        {
+          "url": "",
+          "text": "",
+          "img": "http://125.210.142.148:8989/irs_pic/upload/2015/09/22/540cc48f-de6a-41f7-ae5f-a3bd52473c2f.jpg",
+          "foddertype": "14",
+          "fodderid": "",
+          "jumptype": "",
+          "jumpurl" : "",
+          "duration": ""
+        },
+         {
+          "url": "",
+          "text": "",
+          "img": "http://125.210.142.148:8989/irs_pic/upload/2015/11/26/90766b40-b533-49b4-8acd-d2aa72f12c30.jpg",
+          "foddertype": "14",
+          "fodderid": "",
+          "jumptype": "",
+          "jumpurl" : "",
+          "duration": ""
+        },
+         {
+          "url": "",
+          "text": "",
+          "img": "http://125.210.142.148:8989/irs_pic/upload/2015/12/10/069001ec-4cb3-4dae-9ee6-f3499d366cd6.jpg",
+          "foddertype": "14",
+          "fodderid": "",
+          "jumptype": "",
+          "jumpurl" : "",
+          "duration": ""
+        },
+         {
+          "url": "",
+          "text": "",
+          "img": "http://125.210.142.148:8989/irs_pic/upload/2015/12/10/f2d6e661-ceeb-4980-a7cb-3fc99e2b3b19.jpg",
+          "foddertype": "14",
+          "fodderid": "",
+          "jumptype": "",
+          "jumpurl" : "",
+          "duration": ""
+        },
+         {
+          "url": "",
+          "text": "",
+          "img": "http://125.210.142.148:8989/irs_pic/upload/2015/12/10/06bfeb85-b2f3-47ab-91fa-88fbbb1ffa66.jpg",
+          "foddertype": "14",
+          "fodderid": "",
+          "jumptype": "",
+          "jumpurl" : "",
+          "duration": ""
+        }
+      ]
+    }

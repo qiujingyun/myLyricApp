@@ -1,0 +1,301 @@
+﻿<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <SurfaceView
+        android:layout_width="@dimen/sm_0"
+        android:layout_height="@dimen/sm_0" />
+
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/rl_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <ImageView
+                android:id="@+id/scrollview_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/sm_35"
+                android:layout_alignParentRight="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/scrollview_shadow"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@+id/ll_title"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sm_110"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/ll_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom" >
+
+                    <TextView
+                        android:id="@+id/tv_main_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/sm_60"
+                        android:gravity="bottom"
+                        android:text="@string/lau_def_time"
+                        android:textColor="#4cffffff"
+                        android:textSize="@dimen/sm_48" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toLeftOf="@id/tv_main_time"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/sm_10" >
+
+                        <ImageView
+                            android:id="@+id/iv_net_state"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="@dimen/sm_5"
+                            android:src="@drawable/lau_wifi_n" />
+
+                        <TextView
+                            android:id="@+id/tv_main_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/lau_def_date"
+                            android:textColor="#4cffffff"
+                            android:textSize="@dimen/sm_22" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/ll_rb"
+                android:layout_width="@dimen/sm_190"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/ll_title"
+                android:orientation="vertical" >
+
+                <RadioGroup
+                    android:id="@+id/title_group"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sm_60"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/rb_recommend"
+                        style="@style/lau_TitleButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="@dimen/sm_10"
+                        android:layout_marginRight="@dimen/sm_20"
+                        android:button="@null"
+                        android:focusable="true"
+                        android:nextFocusDown="@+id/rb_live"
+                        android:nextFocusLeft="@+id/rb_recommend"
+                        android:nextFocusRight="@+id/rl_rec_video_view"
+                        android:text="@string/lau_recommend"
+                        android:textSize="@dimen/sm_28" />
+
+                    <RadioButton
+                        android:id="@+id/rb_live"
+                        style="@style/lau_TitleButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="@dimen/sm_10"
+                        android:layout_marginRight="@dimen/sm_20"
+                        android:button="@null"
+                        android:focusable="true"
+                        android:nextFocusDown="@+id/rb_vod"
+                        android:nextFocusLeft="@+id/rb_live"
+                        android:nextFocusRight="@+id/rl_live_video_view"
+                        android:text="@string/lau_live"
+                        android:textSize="@dimen/sm_28" />
+
+                    <RadioButton
+                        android:id="@+id/rb_vod"
+                        style="@style/lau_TitleButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="@dimen/sm_10"
+                        android:layout_marginRight="@dimen/sm_20"
+                        android:button="@null"
+                        android:focusable="true"
+                        android:nextFocusDown="@+id/rb_user"
+                        android:nextFocusLeft="@+id/rb_vod"
+                        android:nextFocusRight="@+id/rl_vod_left"
+                        android:text="@string/lau_vod"
+                        android:textSize="@dimen/sm_28" />
+                    
+                    <!-- <RadioButton
+                        android:id="@+id/rb_music"
+                        style="@style/lau_TitleButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="@dimen/sm_10"
+                        android:layout_marginRight="@dimen/sm_20"
+                        android:button="@null"
+                        android:focusable="true"
+                        android:nextFocusDown="@+id/rb_game"
+                        android:nextFocusLeft="@+id/rb_music"
+                        android:nextFocusRight="@+id/rl_music_platform"
+                        android:text="@string/lau_music"
+                        android:textSize="@dimen/sm_32" />
+                    
+					<RadioButton
+                        android:id="@+id/rb_game"
+                        style="@style/lau_TitleButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="@dimen/sm_10"
+                        android:layout_marginRight="@dimen/sm_20"
+                        android:button="@null"
+                        android:focusable="true"
+                        android:nextFocusDown="@+id/rb_user"
+                        android:nextFocusLeft="@+id/rb_game"
+                        android:nextFocusRight="@+id/rl_game_0"
+                        android:text="@string/lau_game"
+                        android:textSize="@dimen/sm_28" /> -->
+					
+                    <RadioButton
+                        android:id="@+id/rb_user"
+                        style="@style/lau_TitleButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="@dimen/sm_10"
+                        android:layout_marginRight="@dimen/sm_20"
+                        android:button="@null"
+                        android:focusable="true"
+                        android:nextFocusDown="@+id/ll_search"
+                        android:nextFocusLeft="@+id/rb_user"
+                        android:nextFocusRight="@+id/rl_personal_payment"
+                        android:text="@string/lau_user"
+                        android:textSize="@dimen/sm_28" />
+                    
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginBottom="@dimen/sm_70"
+                    android:layout_marginRight="@dimen/sm_32"
+                    android:gravity="bottom"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/lau_search" />
+
+                        <TextView
+                            android:id="@+id/ma_search"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/sm_9"
+                            android:text="搜索"
+                            android:textColor="#4cffffff"
+                            android:textSize="@dimen/sm_20" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_history"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/lau_history" />
+
+                        <TextView
+                            android:id="@+id/ma_history"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/sm_9"
+                            android:text="历史"
+                            android:textColor="#4cffffff"
+                            android:textSize="@dimen/sm_20" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_collect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/lau_collect" />
+
+                        <TextView
+                            android:id="@+id/ma_collection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/sm_9"
+                            android:nextFocusDown="@+id/ma_collection"
+                            android:text="收藏"
+                            android:textColor="#4cffffff"
+                            android:textSize="@dimen/sm_20" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/sm_64"
+        android:layout_marginTop="@dimen/sm_42"
+        android:src="@drawable/lau_wasu_logo_page" />
+
+</RelativeLayout>

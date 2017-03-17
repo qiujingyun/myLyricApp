@@ -1,0 +1,789 @@
+{
+    "version": 0,
+    "result": 0,
+    "resultDesc": " event get sucess ",
+    "chList": [
+        {
+            "chId": 00000000000000000000000000000248,
+            "eventList": [
+                {
+                    "eventId": "",
+                    "eventName": "今日聚焦",
+                    "startTime": "2015-12-30 02:29:00",
+                    "endTime": "2015-12-30 02:34:00"
+                },
+                {
+                    "eventId": "",
+                    "eventName": "新闻深一度",
+                    "startTime": "2015-12-30 02:34:00",
+                    "endTime": "2015-12-30 03:01:00"
+                },
+                {
+                    "eventId": "",
+                    "eventName": "西湖",
+                    "startTime": "2015-12-30 03:01:00",
+                    "endTime": "2015-12-30 03:43:00"
+                },
+                {
+                    "eventId": "",
+                    "eventName": "一本书一座城",
+                    "startTime": "2015-12-30 03:43:00",
+                    "endTime": "2015-12-30 04:08:00"
+                },
+                {
+                    "eventId": "",
+                    "eventName": "百年潮.中国梦(4)",
+                    "startTime": "2015-12-30 04:08:00",
+                    "endTime": "2015-12-30 04:51:00"
+                },
+                {
+                    "eventId": "",
+                    "eventName": "华少爱读书",
+                    "startTime": "2015-12-30 04:51:00",
+                    "endTime": "2015-12-30 05:10:00"
+                },
+                {
+                    "eventId": "",
+                    "eventName": "华少爱读书",
+                    "startTime": "2015-12-30 05:10:00",
+                    "endTime": "2015-12-30 05:30:00"
+                },
+                {
+                    "eventId": "",
+                    "eventName": "江南",
+                    "startTime": "2015-12-30 05:30:00",
+                    "endTime": "2015-12-30 05:59:00"
+                },
+                {
+                    "eventId": "",
+                    "eventName": "人文深呼吸",
+                    "startTime": "2015-12-30 05:59:00",
+                    "endTime": "2015-12-30 06:04:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-12-30 06:04:00","endTime":"2015-12-30 06:26:00"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-12-30 06:26:00","endTime":"2015-12-30 06:31:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-12-30 06:31:00","endTime":"2015-12-30 07:00:00"
+                },
+                {
+					"eventId":"","eventName":"今日证券","startTime":"2015-12-30 07:00:00","endTime":"2015-12-30 07:12:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-12-30 07:12:00","endTime":"2015-12-30 08:28:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(19)","startTime":"2015-12-30 08:28:00","endTime":"2015-12-30 09:20:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(20)","startTime":"2015-12-30 09:20:00","endTime":"2015-12-30 10:12:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(21)","startTime":"2015-12-30 10:12:00","endTime":"2015-12-30 11:04:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-12-30 11:04:00","endTime":"2015-12-30 12:04:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-12-30 12:04:00","endTime":"2015-12-30 13:04:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-12-30 13:04:00","endTime":"2015-12-30 14:04:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-12-30 14:04:00","endTime":"2015-12-30 15:04:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-12-30 15:04:00","endTime":"2015-12-30 16:04:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-12-30 16:04:00","endTime":"2015-12-30 17:28:00"
+                },
+                {
+					"eventId":"","eventName":"娱乐梦工厂","startTime":"2015-12-30 17:28:00","endTime":"2015-12-30 18:00:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-12-30 18:00:00","endTime":"2015-12-30 18:30:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-12-30 18:30:00","endTime":"2015-12-30 18:53:00"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-12-30 18:53:00","endTime":"2015-12-30 19:00:00"
+                },
+                {
+					"eventId":"","eventName":"转播中央台新闻联播","startTime":"2015-12-30 19:00:00","endTime":"2015-12-30 19:33:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(23)","startTime":"2015-12-30 19:33:00","endTime":"2015-12-30 20:31:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(24)","startTime":"2015-12-30 20:31:00","endTime":"2015-12-30 21:30:00"
+                },
+                {
+					"eventId":"","eventName":"今日评说","startTime":"2015-12-30 21:30:00","endTime":"2015-12-30 21:40:00"
+                },
+                {
+					"eventId":"","eventName":"中国梦想秀","startTime":"2015-12-30 21:40:00","endTime":"2015-12-30 22:00:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-12-30 22:00:00","endTime":"2015-12-30 23:49:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-12-30 23:49:00","endTime":"2015-12-30 23:59:59"
+                },
+                {
+					"eventId":"","eventName":"挑战者联盟","startTime":"2015-12-31 01:23:00","endTime":"2015-12-31 02:34:00"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-12-31 02:34:00","endTime":"2015-12-31 02:39:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-12-31 02:39:00","endTime":"2015-12-31 03:06:00"
+                },
+                {
+					"eventId":"","eventName":"西湖","startTime":"2015-12-31 03:06:00","endTime":"2015-12-31 03:48:00"
+                },
+                {
+					"eventId":"","eventName":"一本书一座城","startTime":"2015-12-31 03:48:00","endTime":"2015-12-31 04:13:00"
+                },
+                {
+					"eventId":"","eventName":"华少爱读书","startTime":"2015-12-31 04:13:00","endTime":"2015-12-31 04:32:00"
+                },
+                {
+					"eventId":"","eventName":"百年潮.中国梦(5)","startTime":"2015-12-31 04:32:00","endTime":"2015-12-31 05:10:00"
+                },
+                {
+					"eventId":"","eventName":"华少爱读书","startTime":"2015-12-31 05:10:00","endTime":"2015-12-31 05:29:00"
+                },
+                {
+					"eventId":"","eventName":"江南","startTime":"2015-12-31 05:29:00","endTime":"2015-12-31 05:59:00"
+                },
+                {
+					"eventId":"","eventName":"人文深呼吸","startTime":"2015-12-31 05:59:00","endTime":"2015-12-31 06:15:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-12-31 06:15:00","endTime":"2015-12-31 06:37:00"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-12-31 06:37:00","endTime":"2015-12-31 06:42:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-12-31 06:42:00","endTime":"2015-12-31 07:10:00"
+                },
+                {
+					"eventId":"","eventName":"今日证券","startTime":"2015-12-31 07:10:00","endTime":"2015-12-31 07:23:00"
+                },
+                {
+					"eventId":"","eventName":"精彩好生活","startTime":"2015-12-31 07:23:00","endTime":"2015-12-31 08:32:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(22)","startTime":"2015-12-31 08:32:00","endTime":"2015-12-31 09:24:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(23)","startTime":"2015-12-31 09:24:00","endTime":"2015-12-31 10:16:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(24)","startTime":"2015-12-31 10:16:00","endTime":"2015-12-31 11:08:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-12-31 11:08:00","endTime":"2015-12-31 12:08:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-12-31 12:08:00","endTime":"2015-12-31 13:08:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-12-31 13:08:00","endTime":"2015-12-31 14:08:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-12-31 14:08:00","endTime":"2015-12-31 15:02:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-12-31 15:02:00","endTime":"2015-12-31 17:02:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-12-31 17:02:00","endTime":"2015-12-31 17:28:00"
+                },
+                {
+					"eventId":"","eventName":"娱乐梦工厂","startTime":"2015-12-31 17:28:00","endTime":"2015-12-31 18:00:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-12-31 18:00:00","endTime":"2015-12-31 18:30:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-12-31 18:30:00","endTime":"2015-12-31 18:53:00"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-12-31 18:53:00","endTime":"2015-12-31 19:00:00"
+                },
+                {
+					"eventId":"","eventName":"转播中央台新闻联播","startTime":"2015-12-31 19:00:00","endTime":"2015-12-31 19:32:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(25)","startTime":"2015-12-31 19:32:00","endTime":"2015-12-31 20:36:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(26)","startTime":"2015-12-31 20:36:00","endTime":"2015-12-31 21:30:00"
+                },
+                {
+					"eventId":"","eventName":"今日评说","startTime":"2015-12-31 21:30:00","endTime":"2015-12-31 21:40:00"
+                },
+                {
+					"eventId":"","eventName":"中国梦想秀","startTime":"2015-12-31 21:40:00","endTime":"2015-12-31 22:59:00"
+                },
+                {
+					"eventId":"","eventName":"挑战者联盟","startTime":"2015-12-31 22:59:00","endTime":"2015-12-31 23:59:59"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-01-01 00:22:00","endTime":"2015-01-01 01:38:00"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-01-01 01:38:00","endTime":"2015-01-01 01:43:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-01-01 01:43:00","endTime":"2015-01-01 02:08:00"
+                },
+                {
+					"eventId":"","eventName":"西湖","startTime":"2015-01-01 02:08:00","endTime":"2015-01-01 02:50:00"
+                },
+                {
+					"eventId":"","eventName":"一本书一座城","startTime":"2015-01-01 02:50:00","endTime":"2015-01-01 03:15:00"
+                },
+                {
+					"eventId":"","eventName":"大葱进城记","startTime":"2015-01-01 03:15:00","endTime":"2015-01-01 03:53:00"
+                },
+                {
+					"eventId":"","eventName":"华少爱读书","startTime":"2015-01-01 03:53:00","endTime":"2015-01-01 04:32:00"
+                },
+                {
+					"eventId":"","eventName":"江南","startTime":"2015-01-01 04:32:00","endTime":"2015-01-01 05:01:00"
+                },
+                {
+					"eventId":"","eventName":"人文深呼吸","startTime":"2015-01-01 05:01:00","endTime":"2015-01-01 05:21:00"
+                },
+                {
+					"eventId":"","eventName":"与卓越同行","startTime":"2015-01-01 05:21:00","endTime":"2015-01-01 06:05:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-01-01 06:05:00","endTime":"2015-01-01 06:12:00"
+                },
+                {
+					"eventId":"","eventName":"人文深呼吸","startTime":"2015-01-01 06:12:00","endTime":"2015-01-01 06:26:00"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-01-01 06:26:00","endTime":"2015-01-01 06:31:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-01-01 06:31:00","endTime":"2015-01-01 07:00:00"
+                },
+                {
+					"eventId":"","eventName":"今日证券","startTime":"2015-01-01 07:00:00","endTime":"2015-01-01 07:17:00"
+                },
+                {
+					"eventId":"","eventName":"精彩好生活","startTime":"2015-01-01 07:17:00","endTime":"2015-01-01 08:32:00"
+                },
+                {
+					"eventId":"","eventName":"新大头儿子和小头爸爸","startTime":"2015-01-01 08:32:00","endTime":"2015-01-01 10:04:00"
+                },
+                {
+					"eventId":"","eventName":"星星的密室","startTime":"2015-01-01 10:04:00","endTime":"2015-01-01 11:27:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-01 11:27:00","endTime":"2015-01-01 12:27:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-01 12:27:00","endTime":"2015-01-01 13:27:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-01 13:27:00","endTime":"2015-01-01 14:27:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-01 14:27:00","endTime":"2015-01-01 15:27:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-01 15:27:00","endTime":"2015-01-01 16:27:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-01 16:27:00","endTime":"2015-01-01 17:28:00"
+                },
+                {
+					"eventId":"","eventName":"娱乐梦工厂","startTime":"2015-01-01 17:28:00","endTime":"2015-01-01 18:00:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-01-01 18:00:00","endTime":"2015-01-01 18:30:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-01-01 18:30:00","endTime":"2015-01-01 18:53:00"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-01-01 18:53:00","endTime":"2015-01-01 19:00:00"
+                },
+                {
+					"eventId":"","eventName":"转播中央台新闻联播","startTime":"2015-01-01 19:00:00","endTime":"2015-01-01 19:34:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(27)","startTime":"2015-01-01 19:34:00","endTime":"2015-01-01 20:21:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(28)","startTime":"2015-01-01 20:21:00","endTime":"2015-01-01 21:08:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-01 21:08:00","endTime":"2015-01-01 23:03:00"
+                },
+                {
+					"eventId":"","eventName":"跑男来了","startTime":"2015-01-01 23:03:00","endTime":"2015-01-01 23:22:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-01 23:22:00","endTime":"2015-01-01 23:59:59"
+                },
+                {
+					"eventId":"","eventName":"跑男来了","startTime":"2015-01-02 01:00:00","endTime":"2015-01-02 01:26:00"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-01-02 01:26:00","endTime":"2015-01-02 01:31:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-01-02 01:31:00","endTime":"2015-01-02 01:58:00"
+                },
+                {
+					"eventId":"","eventName":"西湖","startTime":"2015-01-02 01:58:00","endTime":"2015-01-02 02:40:00"
+                },
+                {
+					"eventId":"","eventName":"范长江与红色土司","startTime":"2015-01-02 02:40:00","endTime":"2015-01-02 03:27:00"
+                },
+                {
+					"eventId":"","eventName":"江豚兄弟连","startTime":"2015-01-02 03:27:00","endTime":"2015-01-02 03:59:00"
+                },
+                {
+					"eventId":"","eventName":"华少爱读书","startTime":"2015-01-02 03:59:00","endTime":"2015-01-02 04:38:00"
+                },
+                {
+					"eventId":"","eventName":"江南","startTime":"2015-01-02 04:38:00","endTime":"2015-01-02 05:08:00"
+                },
+                {
+					"eventId":"","eventName":"与卓越同行","startTime":"2015-01-02 05:08:00","endTime":"2015-01-02 05:52:00"
+                },
+                {
+					"eventId":"","eventName":"人文深呼吸","startTime":"2015-01-02 05:52:00","endTime":"2015-01-02 06:01:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-01-02 06:01:00","endTime":"2015-01-02 06:23:00"
+                },
+                {
+					"eventId":"","eventName":"中国梦想秀","startTime":"2015-01-02 06:23:00","endTime":"2015-01-02 07:13:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-02 07:13:00","endTime":"2015-01-02 08:13:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-02 08:13:00","endTime":"2015-01-02 09:13:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-02 09:13:00","endTime":"2015-01-02 10:13:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-02 10:13:00","endTime":"2015-01-02 11:13:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-02 11:13:00","endTime":"2015-01-02 12:13:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-02 12:13:00","endTime":"2015-01-02 13:13:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-02 13:13:00","endTime":"2015-01-02 14:13:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-02 14:13:00","endTime":"2015-01-02 15:13:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-02 15:13:00","endTime":"2015-01-02 16:13:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-02 16:13:00","endTime":"2015-01-02 17:40:00"
+                },
+                {
+					"eventId":"","eventName":"娱乐梦工厂","startTime":"2015-01-02 17:40:00","endTime":"2015-01-02 18:00:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-01-02 18:00:00","endTime":"2015-01-02 18:30:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-01-02 18:30:00","endTime":"2015-01-02 18:53:00"
+                },
+                {
+					"eventId":"","eventName":"中国蓝速递","startTime":"2015-01-02 18:53:00","endTime":"2015-01-02 19:00:00"
+                },
+                {
+					"eventId":"","eventName":"转播中央台新闻联播","startTime":"2015-01-02 19:00:00","endTime":"2015-01-02 19:34:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(29)","startTime":"2015-01-02 19:34:00","endTime":"2015-01-02 20:38:00"
+                },
+                {
+					"eventId":"","eventName":"挑战者联盟","startTime":"2015-01-02 20:38:00","endTime":"2015-01-02 21:55:00"
+                },
+                {
+					"eventId":"","eventName":"燃烧吧少年","startTime":"2015-01-02 21:55:00","endTime":"2015-01-02 23:33:00"
+                },
+                {
+					"eventId":"","eventName":"燃烧吧少年","startTime":"2015-01-02 23:33:00","endTime":"2015-01-02 23:59:59"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-01-03 01:15:00","endTime":"2015-01-03 01:42:00"
+                },
+                {
+					"eventId":"","eventName":"西湖","startTime":"2015-01-03 01:42:00","endTime":"2015-01-03 02:24:00"
+                },
+                {
+					"eventId":"","eventName":"海上海","startTime":"2015-01-03 02:24:00","endTime":"2015-01-03 03:06:00"
+                },
+                {
+					"eventId":"","eventName":"华少爱读书","startTime":"2015-01-03 03:06:00","endTime":"2015-01-03 03:25:00"
+                },
+                {
+					"eventId":"","eventName":"华少爱读书","startTime":"2015-01-03 03:25:00","endTime":"2015-01-03 03:45:00"
+                },
+                {
+					"eventId":"","eventName":"江南","startTime":"2015-01-03 03:45:00","endTime":"2015-01-03 04:44:00"
+                },
+                {
+					"eventId":"","eventName":"麦收故事","startTime":"2015-01-03 04:44:00","endTime":"2015-01-03 05:23:00"
+                },
+                {
+					"eventId":"","eventName":"人文深呼吸","startTime":"2015-01-03 05:23:00","endTime":"2015-01-03 06:04:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-01-03 06:04:00","endTime":"2015-01-03 06:27:00"
+                },
+                {
+					"eventId":"","eventName":"爱心浙江","startTime":"2015-01-03 06:27:00","endTime":"2015-01-03 06:41:00"
+                },
+                {
+					"eventId":"","eventName":"中国梦想秀","startTime":"2015-01-03 06:41:00","endTime":"2015-01-03 07:59:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-03 07:59:00","endTime":"2015-01-03 08:59:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-03 08:59:00","endTime":"2015-01-03 09:59:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-03 09:59:00","endTime":"2015-01-03 10:59:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-03 10:59:00","endTime":"2015-01-03 12:09:00"
+                },
+                {
+					"eventId":"","eventName":"挑战者联盟","startTime":"2015-01-03 12:09:00","endTime":"2015-01-03 13:35:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-03 13:35:00","endTime":"2015-01-03 14:35:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-03 14:35:00","endTime":"2015-01-03 15:35:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-03 15:35:00","endTime":"2015-01-03 16:35:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-03 16:35:00","endTime":"2015-01-03 17:40:00"
+                },
+                {
+					"eventId":"","eventName":"娱乐梦工厂","startTime":"2015-01-03 17:40:00","endTime":"2015-01-03 17:55:00"
+                },
+                {
+					"eventId":"","eventName":"华商启示录","startTime":"2015-01-03 17:55:00","endTime":"2015-01-03 18:17:00"
+                },
+                {
+					"eventId":"","eventName":"时代先锋","startTime":"2015-01-03 18:17:00","endTime":"2015-01-03 18:30:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-01-03 18:30:00","endTime":"2015-01-03 18:53:00"
+                },
+                {
+					"eventId":"","eventName":"中国蓝速递","startTime":"2015-01-03 18:53:00","endTime":"2015-01-03 19:00:00"
+                },
+                {
+					"eventId":"","eventName":"转播中央台新闻联播","startTime":"2015-01-03 19:00:00","endTime":"2015-01-03 19:33:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(30)","startTime":"2015-01-03 19:33:00","endTime":"2015-01-03 20:31:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(31)","startTime":"2015-01-03 20:31:00","endTime":"2015-01-03 21:30:00"
+                },
+                {
+					"eventId":"","eventName":"中国梦想秀","startTime":"2015-01-03 21:30:00","endTime":"2015-01-03 22:00:00"
+                },
+                {
+					"eventId":"","eventName":"星星的密室","startTime":"2015-01-03 22:00:00","endTime":"2015-01-03 23:18:00"
+                },
+                {
+					"eventId":"","eventName":"十二道锋味","startTime":"2015-01-03 23:18:00","endTime":"2015-01-03 23:59:59"
+                },
+                {
+					"eventId":"","eventName":"星星的密室","startTime":"2015-01-04 00:43:00","endTime":"2015-01-04 02:00:00"
+                },
+                {
+					"eventId":"","eventName":"西湖","startTime":"2015-01-04 02:00:00","endTime":"2015-01-04 02:42:00"
+                },
+                {
+					"eventId":"","eventName":"一本书一座城","startTime":"2015-01-04 02:42:00","endTime":"2015-01-04 03:07:00"
+                },
+                {
+					"eventId":"","eventName":"绿手指的故事","startTime":"2015-01-04 03:07:00","endTime":"2015-01-04 03:31:00"
+                },
+                {
+					"eventId":"","eventName":"华少爱读书","startTime":"2015-01-04 03:31:00","endTime":"2015-01-04 03:50:00"
+                },
+                {
+					"eventId":"","eventName":"江南","startTime":"2015-01-04 03:50:00","endTime":"2015-01-04 04:20:00"
+                },
+                {
+					"eventId":"","eventName":"华少爱读书","startTime":"2015-01-04 04:20:00","endTime":"2015-01-04 04:39:00"
+                },
+                {
+					"eventId":"","eventName":"与卓越同行","startTime":"2015-01-04 04:39:00","endTime":"2015-01-04 05:23:00"
+                },
+                {
+					"eventId":"","eventName":"人文深呼吸","startTime":"2015-01-04 05:23:00","endTime":"2015-01-04 06:27:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-01-04 06:27:00","endTime":"2015-01-04 06:48:00"
+                },
+                {
+					"eventId":"","eventName":"华商启示录","startTime":"2015-01-04 06:48:00","endTime":"2015-01-04 07:12:00"
+                },
+                {
+					"eventId":"","eventName":"今日证券","startTime":"2015-01-04 07:12:00","endTime":"2015-01-04 07:26:00"
+                },
+                {
+					"eventId":"","eventName":"精彩好生活","startTime":"2015-01-04 07:26:00","endTime":"2015-01-04 08:37:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(25)","startTime":"2015-01-04 08:37:00","endTime":"2015-01-04 09:28:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(26)","startTime":"2015-01-04 09:28:00","endTime":"2015-01-04 10:18:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(27)","startTime":"2015-01-04 10:18:00","endTime":"2015-01-04 11:09:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-04 11:09:00","endTime":"2015-01-04 12:09:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-04 12:09:00","endTime":"2015-01-04 13:09:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-04 13:09:00","endTime":"2015-01-04 14:09:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-04 14:09:00","endTime":"2015-01-04 14:59:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-01-04 14:59:00","endTime":"2015-01-04 16:59:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-01-04 16:59:00","endTime":"2015-01-04 17:28:00"
+                },
+                {
+					"eventId":"","eventName":"娱乐梦工厂","startTime":"2015-01-04 17:28:00","endTime":"2015-01-04 18:00:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-01-04 18:00:00","endTime":"2015-01-04 18:30:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-01-04 18:30:00","endTime":"2015-01-04 18:53:00"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-01-04 18:53:00","endTime":"2015-01-04 19:00:00"
+                },
+                {
+					"eventId":"","eventName":"转播中央台新闻联播","startTime":"2015-01-04 19:00:00","endTime":"2015-01-04 19:33:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(33)","startTime":"2015-01-04 19:33:00","endTime":"2015-01-04 20:30:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(34)","startTime":"2015-01-04 20:30:00","endTime":"2015-01-04 21:28:00"
+                },
+                {
+					"eventId":"","eventName":"今日评说","startTime":"2015-01-04 21:28:00","endTime":"2015-01-04 21:39:00"
+                },
+                {
+					"eventId":"","eventName":"中国梦想秀","startTime":"2015-01-04 21:39:00","endTime":"2015-01-04 21:58:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-01-04 21:58:00","endTime":"2015-01-04 23:24:00"
+                },
+                {
+					"eventId":"","eventName":"星星的密室","startTime":"2015-01-04 23:24:00","endTime":"2015-01-04 23:59:59"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-01-05 00:51:00","endTime":"2015-12-2 02:05:00"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-01-05 02:05:00","endTime":"2015-12-2 02:10:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-01-05 02:10:00","endTime":"2015-12-2 02:40:00"
+                },
+                {
+					"eventId":"","eventName":"西湖","startTime":"2015-01-05 02:40:00","endTime":"2015-12-2 03:22:00"
+                },
+                {
+					"eventId":"","eventName":"一本书一座城","startTime":"2015-01-05 03:22:00","endTime":"2015-12-2 03:47:00"
+                },
+                {
+					"eventId":"","eventName":"人在草木间","startTime":"2015-01-05 03:47:00","endTime":"2015-12-2 04:13:00"
+                },
+                {
+					"eventId":"","eventName":"江南","startTime":"2015-01-05 04:13:00","endTime":"2015-12-2 04:42:00"
+                },
+                {
+					"eventId":"","eventName":"华少爱读书","startTime":"2015-01-05 04:42:00","endTime":"2015-12-2 05:21:00"
+                },
+                {
+					"eventId":"","eventName":"人文深呼吸","startTime":"2015-01-05 05:21:00","endTime":"2015-12-2 06:10:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-01-05 06:10:00","endTime":"2015-12-2 06:31:00"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-01-05 06:31:00","endTime":"2015-12-2 06:36:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-01-05 06:36:00","endTime":"2015-12-2 07:04:00"
+                },
+                {
+					"eventId":"","eventName":"今日证券","startTime":"2015-01-05 07:04:00","endTime":"2015-12-2 07:17:00"
+                },
+                {
+					"eventId":"","eventName":"精彩好生活","startTime":"2015-01-05 07:17:00","endTime":"2015-12-2 08:28:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(28)","startTime":"2015-01-05 08:28:00","endTime":"2015-12-2 09:20:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(29)","startTime":"2015-01-05 09:20:00","endTime":"2015-12-2 10:12:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(30)","startTime":"2015-01-05 10:12:00","endTime":"2015-12-2 11:04:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-05 11:04:00","endTime":"2015-12-2 12:04:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-05 12:04:00","endTime":"2015-12-2 13:04:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-05 13:04:00","endTime":"2015-12-2 14:04:00"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-05 14:04:00","endTime":"2015-12-2 14:57:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-01-05 14:57:00","endTime":"2015-12-2 15:57:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-01-05 15:57:00","endTime":"2015-12-2 16:57:00"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-01-05 16:57:00","endTime":"2015-12-2 17:28:00"
+                },
+                {
+					"eventId":"","eventName":"娱乐梦工厂","startTime":"2015-01-05 17:28:00","endTime":"2015-12-2 18:00:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-01-05 18:00:00","endTime":"2015-12-2 18:30:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-01-05 18:30:00","endTime":"2015-12-2 18:53:00"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-01-05 18:53:00","endTime":"2015-12-2 19:00:00"
+                },
+                {
+					"eventId":"","eventName":"转播中央台新闻联播","startTime":"2015-01-05 19:00:00","endTime":"2015-12-2 19:34:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(35)","startTime":"2015-01-05 19:34:00","endTime":"2015-12-2 20:32:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪(36)","startTime":"2015-01-05 20:32:00","endTime":"2015-12-2 21:30:00"
+                },
+                {
+					"eventId":"","eventName":"今日评说","startTime":"2015-01-05 21:30:00","endTime":"2015-12-2 21:40:00"
+                },
+                {
+					"eventId":"","eventName":"中国梦想秀","startTime":"2015-01-05 21:40:00","endTime":"2015-12-2 22:00:00"
+                },
+                {
+					"eventId":"","eventName":"挑战者联盟","startTime":"2015-01-05 22:00:00","endTime":"2015-12-2 23:08:00"
+                },
+                {
+					"eventId":"","eventName":"综艺精选","startTime":"2015-01-05 23:08:00","endTime":"2015-12-2 23:59:59"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-01-06 06:07:20","endTime":"2015-01-06 06:28:50"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-01-06 06:28:50","endTime":"2015-01-06 06:33:50"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-01-06 06:33:50","endTime":"2015-01-06 07:01:40"
+                },
+                {
+					"eventId":"","eventName":"今日证券","startTime":"2015-01-06 07:01:40","endTime":"2015-01-06 07:13:55"
+                },
+                {
+					"eventId":"","eventName":"精彩好生活","startTime":"2015-01-06 07:13:55","endTime":"2015-01-06 08:24:29"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪","startTime":"2015-01-06 08:24:29","endTime":"2015-01-06 10:57:04"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-06 10:57:04","endTime":"2015-01-06 14:52:01"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-01-06 14:52:01","endTime":"2015-01-06 17:28:00"
+                },
+                {
+					"eventId":"","eventName":"娱乐梦工厂","startTime":"2015-01-06 17:28:00","endTime":"2015-01-06 18:00:00"
+                },
+                {
+					"eventId":"","eventName":"新闻深一度","startTime":"2015-01-06 18:00:00","endTime":"2015-01-06 18:30:00"
+                },
+                {
+					"eventId":"","eventName":"浙江新闻联播","startTime":"2015-01-06 18:30:00","endTime":"2015-01-06 18:53:00"
+                },
+                {
+					"eventId":"","eventName":"今日聚焦","startTime":"2015-01-06 18:53:00","endTime":"2015-01-06 19:00:00"
+                },
+                {
+					"eventId":"","eventName":"转播中央电视台新闻联播","startTime":"2015-01-06 19:00:00","endTime":"2015-01-06 19:34:00"
+                },
+                {
+					"eventId":"","eventName":"北上广不相信眼泪","startTime":"2015-01-06 19:34:00","endTime":"2015-01-06 21:30:00"
+                },
+                {
+					"eventId":"","eventName":"今日评说","startTime":"2015-01-06 21:30:00","endTime":"2015-01-06 21:40:40"
+                },
+                {
+					"eventId":"","eventName":"中国梦想秀","startTime":"2015-01-06 21:40:40","endTime":"2015-01-06 22:00:25"
+                },
+                {
+					"eventId":"","eventName":"奔跑吧兄弟","startTime":"2015-01-06 22:00:25","endTime":"2015-01-06 23:53:42"
+                },
+                {
+					"eventId":"","eventName":"我不是明星","startTime":"2015-01-06 23:53:42","endTime":"2015-01-06 23:59:59"
+                }
+            ]
+        }
+    ]
+}

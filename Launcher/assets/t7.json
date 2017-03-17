@@ -1,0 +1,86 @@
+    {
+      "placeCode": "7",
+      "type": "5",
+      "infoList": [
+        {
+          "url": "http://cctv",
+          "text": "中央电视",
+          "img": "http://125.210.142.148:8989/irs_pic/upload/2015/12/10/29cc801e-17b5-4fde-ba9b-6bc456454a67.jpg",
+          "foddertype": "38",
+          "fodderid": "00000000000000000000000000000240",
+          "jumptype": "",
+          "jumpurl" : "",
+          "duration": ""
+        },
+         {
+          "url": "http:://hntv",
+          "text": "湖南卫视",
+          "img": "http://125.210.142.148:8989/irs_pic/upload/2015/12/10/d79315da-99bd-457a-8d2f-14709165d77b.jpg",
+          "foddertype": "38",
+          "fodderid": "00000000000000000000000000000180",
+          "jumptype": "",
+          "jumpurl" : "",
+          "duration": ""
+        },
+         {
+          "url": "http://east",
+          "text": "东方卫视",
+          "img": "http://125.210.142.148:8989/irs_pic/upload/2015/12/10/3e988145-ebd5-44bc-8bc7-64aa250ac9a7.jpg",
+          "foddertype": "38",
+          "fodderid": "00000000000000000000000000000202",
+          "jumptype": "",
+          "jumpurl" : "",
+          "duration": ""
+        },
+         {
+          "url": "htt://sdtv",
+          "text": "天津卫视",
+          "img": "http://125.210.142.148:8989/irs_pic/upload/2015/12/10/18a6567f-8b3d-42ea-a13c-aa0736f3aea8.jpg",
+          "foddertype": "38",
+          "fodderid": "00000000000000000000000000028935",
+          "jumptype": "",
+          "jumpurl" : "",
+          "duration": ""
+        },
+         {
+          "url": "http://jstv",
+          "text": "江苏卫视",
+          "img": "http://125.210.142.148:8989/irs_pic/upload/2015/12/10/35bcad56-4ef7-4ff6-8826-0a0f21bd0569.jpg",
+          "foddertype": "38",
+          "fodderid": "00000000000000000000000000028978",
+          "jumptype": "",
+          "jumpurl" : "",
+          "duration": ""
+        },
+        {
+          "url": "http://zjtv",
+          "text": "浙江卫视",
+          "img": "http://125.210.142.148:8989/irs_pic/upload/2015/12/10/c0eda387-6b72-4566-9793-0df4e0dd4a81.jpg",
+          "foddertype": "38",
+          "fodderid": "00000000000000000000000000000248",
+          "jumptype": "",
+          "jumpurl" : "",
+          "duration": ""
+        },
+        {
+          "url": "http://ahtv",
+          "text": "安徽卫视",
+          "img": "http://125.210.142.148:8989/irs_pic/upload/2015/12/10/eea33ca3-a9f9-49d3-9dea-6fee2c59c5ad.jpg",
+          "foddertype": "38",
+          "fodderid": "00000000000000000000000000000282",
+          "jumptype": "",
+          "jumpurl" : "",
+          "duration": ""
+        },
+        {
+          "url": "http://zftv",
+          "text": "深圳卫视",
+          "img": "http://125.210.142.148:8989/irs_pic/upload/2015/12/10/67785cfb-981b-446c-8c64-8e2cc7e1cd37.jpg",
+          "foddertype": "38",
+          "fodderid": "00000000000000000000000000000220",
+          "jumptype": "",
+          "jumpurl" : "",
+          "duration": ""
+        }
+      ]
+    }

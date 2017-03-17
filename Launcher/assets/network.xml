@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<network nid="0x2009" name="浙江-杭州-市区" delivery="cable" version="26">
+    <ts rate="6875000" mod="QAM64" freq="706000000" onid="0x2009" tsid="1038">
+       <ch sid="3804" PCR_PID="104" tstf="1" channelId="003804" name="风尚音乐HD" number="804" type="0x01" playURL="…" chLogoURL="…" isHdCh ="1" hdChNo ="500" hdChId ="008888">
+           <es pid="104" type="0x1b">
+               <ecm pid="3064" capid="804" caids="19154"/>
+               <ecm pid="3094" capid="804" caids="19155"/>
+           </es>
+           <es pid="216" type="0x04">
+               <ecm pid="3064" capid="804" caids="19154"/>
+               <ecm pid="3094" capid="804" caids="19155"/>
+           </es>
+      </ch>
+    </ts>
+    <ts rate="7875010" mod="QAM64" freq="806000000" onid="0x2009" tsid="5038">
+       <ch sid="3804" PCR_PID="104" tstf="1" channelId="003804" name="开心就好" number="804" type="0x01" playURL="…" chLogoURL="…" isHdCh ="1" hdChNo ="500" hdChId ="008888">
+           <es pid="105" type="0x1c">
+               <ecm pid="30464" capid="8044" caids="194154"/>
+               <ecm pid="34094" capid="8404" caids="4194155"/>
+           </es>
+           <es pid="4216" type="0x04">
+               <ecm pid="43064" capid="4804" caids="419154"/>
+               <ecm pid="43094" capid="804" caids="419155"/>
+           </es>
+      </ch>
+    </ts>
+</network>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<BAT version="11">
+    <bou id="1040" name="体育" bouquetType="0" sortby= "1">
+        <ch sid="3107" tsid="1502" chid="100000000"/>
+        <ch sid="3102" tsid="1502" chid="100000001"/>
+        <ch sid="3402" tsid="1034" chid="100000002"/>
+        <ch sid="302" tsid="201" chid="100000003"/>
+        <ch sid="4501" tsid="1045" chid="100000004"/>
+        <ch sid="1401" tsid="702" chid="100000005"/>
+        <ch sid="1403" tsid="702" chid="100000006"/>
+        <ch sid="1108" tsid="1011" chid="100000007"/>
+        <ch sid="1508" tsid="1015" chid="100000008"/>
+        <ch sid="3502" tsid="1035" chid="100000009"/>
+        <ch sid="5201" tsid="1052" chid="100000010"/>
+        <ch sid="1303" tsid="701" chid="100000011"/>
+        <ch sid="504" tsid="301" chid="100000012"/>
+        <ch sid="2005" tsid="1020" chid="100000013"/>
+        <ch sid="2107" tsid="1801" chid="100000014"/>
+    </bou>
+    <bou id="2040" name="美术" bouquetType="1" sortby= "1">
+        <ch sid="3107" tsid="1502" chid="100000000"/>
+        <ch sid="3102" tsid="1502" chid="100000001"/>
+        <ch sid="3402" tsid="1034" chid="100000002"/>
+        <ch sid="302" tsid="201" chid="100000003"/>
+        <ch sid="4501" tsid="1045" chid="100000004"/>
+        <ch sid="1401" tsid="702" chid="100000005"/>
+        <ch sid="1403" tsid="702" chid="100000006"/>
+        <ch sid="1108" tsid="1011" chid="100000007"/>
+        <ch sid="1508" tsid="1015" chid="100000008"/>
+        <ch sid="3502" tsid="1035" chid="100000009"/>
+        <ch sid="5201" tsid="1052" chid="100000010"/>
+        <ch sid="1303" tsid="701" chid="100000011"/>
+        <ch sid="504" tsid="301" chid="100000012"/>
+        <ch sid="2005" tsid="1020" chid="100000013"/>
+        <ch sid="2107" tsid="1801" chid="100000014"/>
+    </bou>
+</BAT>

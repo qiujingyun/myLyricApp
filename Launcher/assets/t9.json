@@ -1,0 +1,26 @@
+    {
+      "placeCode": "9",
+      "type": "1",
+      "infoList": [
+        {
+          "url": "movPicFolder.html?f=",
+          "text": "影片",
+          "img": "http://img.wasu.cn/image/data/pic/201508/1439781663815.jpg",
+          "foddertype": "1",
+          "fodderid": "320657153",
+          "jumptype": "101",
+          "jumpurl" : "",
+          "duration": "1000"
+        },
+        {
+          "url": "contenid12333",
+          "text": "影片展示图片",
+          "img": "http://125.210.142.148:8989/irs_pic/upload/2015/11/26/90766b40-b533-49b4-8acd-d2aa72f12c30.jpg",
+          "foddertype": "1",
+          "fodderid": "320657153",
+          "jumptype": "101",
+          "jumpurl" : "",
+          "duration": "1000"
+        }
+      ]
+    }

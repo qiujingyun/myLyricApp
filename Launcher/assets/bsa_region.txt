@@ -1,0 +1,61 @@
+{
+    "body": {
+        "result": 0,
+        "proviceList": [
+            {
+                "areaKey": "COMMON_PROVINCE",
+                "areaCode": "31",
+                "areaContent": "浙江",
+                "areaParentId": "0",
+                "orderBy": 1
+            }
+        ],
+        "cityList": [
+            {
+                "areaKey": "COMMON_CITY",
+                "areaCode": "3101",
+                "areaContent": "杭州市",
+                "areaParentId": "31",
+                "orderBy": 1
+            },
+            {
+                "areaKey": "COMMON_CITY",
+                "areaCode": "3102",
+                "areaContent": "宁波市",
+                "areaParentId": "31",
+                "orderBy": 2
+            }
+        ],
+        "countyList": [
+            {
+                "areaKey": "COMMON_COUNTY",
+                "areaCode": "310104",
+                "areaContent": "拱墅区",
+                "areaParentId": "3101",
+                "orderBy": 1,
+                "bossAreaCode": "01#4001",
+                "userProfile": "01#4001##310104##"
+            },
+            {
+                "areaKey": "COMMON_COUNTY",
+                "areaCode": "310105",
+                "areaContent": "西湖区",
+                "areaParentId": "3101",
+                "orderBy": 2,
+                "bossAreaCode": "01#4001",
+                "userProfile": "01#4001##330105##"
+            },
+            {
+                "areaKey": "COMMON_COUNTY",
+                "areaCode": "310107",
+                "areaContent": "萧山区",
+                "areaParentId": "3101",
+                "orderBy": 3,
+                "bossAreaCode": "01#4003",
+                "userProfile": "01#4001##330107##"
+            }
+        ],
+        "defaultAreaCode": "310105",
+        "desc": ""
+    }
+}

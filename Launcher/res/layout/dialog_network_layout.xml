@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/sm_450"
+    android:layout_height="@dimen/sm_300"
+    android:background="#000000">
+   <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="@dimen/sm_15"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="@string/prompt_dialog"
+        android:textSize="@dimen/sm_30" />
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="@dimen/sm_75"
+        android:layout_marginLeft="@dimen/sm_20"
+        android:layout_marginRight="@dimen/sm_20"
+        android:gravity="center"
+      
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/sm_23" />
+
+    <View
+        android:id="@+id/t_view1"
+        android:layout_width="match_parent"
+         android:layout_height="1px"
+        android:layout_above="@+id/positiveButton"
+         android:layout_marginBottom="@dimen/sm_30"
+        android:layout_marginLeft="@dimen/sm_10"
+        android:layout_marginRight="@dimen/sm_10"
+        android:background="#72856D" />
+
+    <ImageView
+        android:id="@+id/positiveButton"
+        android:layout_width="@dimen/sm_182"
+        android:layout_height="@dimen/sm_70"
+       
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/sm_30"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:src="@drawable/lau_determine" />
+
+</RelativeLayout>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.wasu.launcher.view.SmoothHorizontalScrollView
+        android:id="@+id/vod_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:fadeScrollbars="false"
+        android:overScrollMode="never"
+        android:paddingTop="@dimen/sm_30"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:id="@+id/rl_vod_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingTop="@dimen/sm_110"
+            android:paddingLeft="@dimen/sm_190"
+            android:paddingRight="182px" >
+
+            <RelativeLayout
+                android:id="@+id/rl_vod_left"
+                android:layout_width="380px"
+                android:layout_height="772px"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/rb_vod"
+                android:nextFocusRight="@+id/rl_vod_movie" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="1px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_vod_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_vod_movie"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_vod_left"
+                android:focusable="true" >
+
+                <!-- 为了解决部分图片会有底图边缘露出的问题，设置1像素padding -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="1px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_vod_movie_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/vod_movie" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_vod_series"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_vod_movie"
+                android:focusable="true"
+                android:nextFocusRight="@+id/rl_vod_news" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="1px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_vod_series_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/vod_series" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_vod_entertainment"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_below="@+id/rl_vod_movie"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@+id/rl_vod_left"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="1px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_vod_entertainment_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/vod_entertainment" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_vod_children"
+                android:layout_width="380px"
+                android:layout_height="380px"
+                android:layout_below="@id/rl_vod_series"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@+id/rl_vod_entertainment"
+                android:focusable="true"
+                android:nextFocusRight="@+id/rl_vod_documentary" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="1px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_vod_children_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/vod_children" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_vod_news"
+                android:layout_width="380px"
+                android:layout_height="184px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_vod_series"
+                android:background="#ffce7c46"
+                android:focusable="true" >
+
+                <ImageView
+                    android:id="@+id/iv_vod_news_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/vod_news" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/sm_40"
+                    android:text="新闻"
+                    android:textColor="@color/lau_white"
+                    android:textSize="@dimen/sm_30" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_vod_column"
+                android:layout_width="380px"
+                android:layout_height="184px"
+                android:layout_below="@id/rl_vod_news"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_vod_series"
+                android:background="#ff7661db"
+                android:focusable="true" >
+
+                <ImageView
+                    android:id="@+id/iv_vod_column_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/vod_column" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/sm_40"
+                    android:text="栏目"
+                    android:textColor="@color/lau_white"
+                    android:textSize="@dimen/sm_30" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_vod_documentary"
+                android:layout_width="380px"
+                android:layout_height="184px"
+                android:layout_below="@id/rl_vod_column"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_vod_children"
+                android:background="#ff009486"
+                android:focusable="true" >
+
+                <ImageView
+                    android:id="@+id/iv_vod_documentary_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/vod_documentary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/sm_40"
+                    android:text="纪录"
+                    android:textColor="@color/lau_white"
+                    android:textSize="@dimen/sm_30" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_vod_life"
+                android:layout_width="380px"
+                android:layout_height="184px"
+                android:layout_below="@id/rl_vod_documentary"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_vod_children"
+                android:background="#ff9b5742"
+                android:focusable="true" >
+
+                <ImageView
+                    android:id="@+id/iv_vod_life_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/vod_life" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/sm_40"
+                    android:text="生活"
+                    android:textColor="@color/lau_white"
+                    android:textSize="@dimen/sm_30" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_vod_sports"
+                android:layout_width="380px"
+                android:layout_height="184px"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_vod_news"
+                android:background="#ffd342a3"
+                android:focusable="true" >
+
+                <ImageView
+                    android:id="@+id/iv_vod_sports_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/vod_sports" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/sm_40"
+                    android:text="体育"
+                    android:textColor="@color/lau_white"
+                    android:textSize="@dimen/sm_30" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_vod_music"
+                android:layout_width="380px"
+                android:layout_height="184px"
+                android:layout_below="@id/rl_vod_sports"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_vod_column"
+                android:background="#ff9542c1"
+                android:focusable="true" >
+
+                <ImageView
+                    android:id="@+id/iv_vod_music_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/vod_music" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/sm_40"
+                    android:text="音乐"
+                    android:textColor="@color/lau_white"
+                    android:textSize="@dimen/sm_30" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_vod_finance"
+                android:layout_width="380px"
+                android:layout_height="184px"
+                android:layout_below="@id/rl_vod_music"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_vod_documentary"
+                android:background="#ff7529ce"
+                android:focusable="true" >
+
+                <ImageView
+                    android:id="@+id/iv_vod_finance_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/vod_finance" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/sm_40"
+                    android:text="财经"
+                    android:textColor="@color/lau_white"
+                    android:textSize="@dimen/sm_30" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_vod_education"
+                android:layout_width="380px"
+                android:layout_height="184px"
+                android:layout_below="@id/rl_vod_finance"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:layout_marginTop="@dimen/sm_8"
+                android:layout_toRightOf="@id/rl_vod_life"
+                android:background="#ffdd9e00"
+                android:focusable="true" >
+
+                <ImageView
+                    android:id="@+id/iv_vod_education_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/vod_education" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/sm_40"
+                    android:text="教育"
+                    android:textColor="@color/lau_white"
+                    android:textSize="@dimen/sm_30" />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/rl_vod_mangotv"
+                android:layout_width="380px"
+                android:layout_height="772px"
+                android:layout_toRightOf="@id/rl_vod_sports"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:focusable="true"
+                android:nextFocusLeft="@id/rl_vod_sports" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_vod_mangotv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mangotv" />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/rl_vod_data"
+                android:layout_width="380px"
+                android:layout_height="772px"
+                android:layout_toRightOf="@id/rl_vod_mangotv"
+                android:layout_marginLeft="@dimen/sm_8"
+                android:focusable="true"
+                android:nextFocusLeft="@id/rl_vod_mangotv" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lau_default_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_vod_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            
+            <ImageView
+                android:id="@+id/shadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/common_focus"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </com.wasu.launcher.view.SmoothHorizontalScrollView>
+
+</RelativeLayout>

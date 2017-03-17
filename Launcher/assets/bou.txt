@@ -1,0 +1,1696 @@
+{
+    "version": 0,
+    "isPurchased": 0,
+    "result": 0,
+    "resultDesc": " channel get sucess ",
+    "bList": [
+        {
+            "bId": 1000,
+            "bName": "全部",
+            "firstChId": "100002",
+            "sortby": 1,
+            "chList": [
+            
+            	 {
+                    "chId": "10000000000000000000000000000200",
+                    "chName": "频道1",
+                    "chNo": "1",
+                    "isHdCh": 1,
+                    "hdChId": "005901",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "179000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "1049"
+                    }
+                },
+				{
+                    "chId": "10000000000000000000000000000284",
+                    "chName": "频道2",
+                    "chNo": "2",
+                    "isHdCh": 0,
+                    "hdChId": "005601",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "179000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "1049"
+                    }
+                },
+				{
+                    "chId": "1004904",
+                    "chName": "频道3",
+                    "chNo": "3",
+                    "isHdCh": 1,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "203000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "1047"
+                    }
+                },
+				{
+                    "chId": "10000000000000000000000000000222",
+                    "chName": "频道4",
+                    "chNo": "4",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "275000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "1015"
+                    }
+                },
+				{
+                    "chId": "00000000000000000000000000000200",
+                    "chName": "华数服务",
+                    "chNo": "0",
+                    "isHdCh": 1,
+                    "hdChId": "005901",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "427000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "1216"
+                    }
+                },
+				{
+                    "chId": "00000000000000000000000000000284",
+                    "chName": "杭州影视",
+                    "chNo": "5",
+                    "isHdCh": 0,
+                    "hdChId": "005601",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "219000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "105"
+                    }
+                },
+				{
+                    "chId": "004904",
+                    "chName": "求索动力高清",
+                    "chNo": "609",
+                    "isHdCh": 1,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "179000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "4904"
+                    }
+                },
+				{
+                    "chId": "00000000000000000000000000000222",
+                    "chName": "中央一套",
+                    "chNo": "7",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "395000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "201"
+                    }
+                },
+				{
+                    "chId": "00000000000000000000000000000224",
+                    "chName": "中央二套",
+                    "chNo": "17",
+                    "isHdCh": 0,
+                    "hdChId": "004801",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "395000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "202"
+                    }
+                },
+				{
+                    "chId": "00000000000000000000000000000232",
+                    "chName": "中央三套",
+                    "chNo": "18",
+                    "isHdCh": 0,
+                    "hdChId": "30CP230120140408870700",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "403000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "301"
+                    }
+                },
+				{
+                    "chId": "00000000000000000000000000000244",
+                    "chName": "中央四套",
+                    "chNo": "19",
+                    "isHdCh": 0,
+                    "hdChId": "30CP230120140408870700",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "299000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "1003"
+                    }
+                },
+				{
+                    "chId": "00000000000000000000000000000234",
+                    "chName": "中央五套",
+                    "chNo": "20",
+                    "isHdCh": 0,
+                    "hdChId": "30CP230120140408871200",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "403000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "302"
+                    }
+                },
+				{
+                    "chId": "00000000000000000000000000000236",
+                    "chName": "中央六套",
+                    "chNo": "78",
+                    "isHdCh": 0,
+                    "hdChId": "30CP230120140408871400",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "403000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "303"
+                    }
+                },
+				{
+                    "chId": "00000000000000000000000000000226",
+                    "chName": "中央七套",
+                    "chNo": "78",
+                    "isHdCh": 0,
+                    "hdChId": "004802",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "291000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "1606"
+                    }
+                },
+				{
+                    "chId": "00000000000000000000000000000238",
+                    "chName": "中央八套",
+                    "chNo": "81",
+                    "isHdCh": 0,
+                    "hdChId": "30CP230120140408871600",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "403000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "304"
+                    }
+                },
+				{
+                    "chId": "00000000000000000000000000000228",
+                    "chName": "中央十套",
+                    "chNo": "83",
+                    "isHdCh": 0,
+                    "hdChId": "004702",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "395000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "204"
+                    }
+                },
+                {
+                    "chId": "60571261",
+                    "chName": "日韩剧场",
+                    "chNo": "906",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "251000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2204"
+                    }
+                },
+                {
+                    "chId": "60571253",
+                    "chName": "港台剧场",
+                    "chNo": "902",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "251000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2203"
+                    }
+                },
+                {
+                    "chId": "60571419",
+                    "chName": "亚洲影院",
+                    "chNo": "900",
+                    "isHdCh": 1,
+                    "hdChId": "2723700",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "251000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2201"
+                    }
+                },
+				{
+                    "chId": "003108",
+                    "chName": "彩民在线",
+                    "chNo": "135",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "554000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "3108"
+                    }
+                },
+                {
+                    "chId": "1401",
+                    "chName": "四海钓鱼",
+                    "chNo": "119",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "459000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "1401"
+                    }
+                },
+				{
+                    "chId": "00601",
+                    "chName": "凤凰中文Ⅱ",
+                    "chNo": "257",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "371000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "601"
+                    }
+                },
+                {
+                    "chId": "00603",
+                    "chName": "星空卫视Ⅰ",
+                    "chNo": "253",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "371000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "603"
+                    }
+                },
+                {
+                    "chId": "00703",
+                    "chName": "DISCOVERY",
+                    "chNo": "210",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "379000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "703"
+                    }
+                },
+				{
+                    "chId": "60571261",
+                    "chName": "日韩剧场",
+                    "chNo": "906",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "251000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2204"
+                    }
+                },
+                {
+                    "chId": "60571253",
+                    "chName": "港台剧场",
+                    "chNo": "902",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "251000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2203"
+                    }
+                },
+                {
+                    "chId": "60571419",
+                    "chName": "亚洲影院",
+                    "chNo": "900",
+                    "isHdCh": 1,
+                    "hdChId": "2723700",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "251000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2201"
+                    }
+                },
+				{
+                    "chId": "005601",
+                    "chName": "杭州影视高清",
+                    "chNo": "504",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "490000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "5601"
+                    }
+                },
+                {
+                    "chId": "005603",
+                    "chName": "杭州少儿高清",
+                    "chNo": "505",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "490000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "5603"
+                    }
+                },
+                {
+                    "chId": "5502",
+                    "chName": "西湖明珠高清",
+                    "chNo": "502",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "163000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "5502"
+                    }
+                },
+                {
+                    "chId": "005703",
+                    "chName": "民生休闲高清",
+                    "chNo": "513",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "187000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "5703"
+                    }
+                },
+                {
+                    "chId": "5802",
+                    "chName": "浙江影视高清",
+                    "chNo": "512",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "139000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "5802"
+                    }
+                },
+                {
+                    "chId": "005902",
+                    "chName": "浙江少儿高清",
+                    "chNo": "515",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "131000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "5902"
+                    }
+                },
+                {
+                    "chId": "004901",
+                    "chName": "安徽卫视高清",
+                    "chNo": "527",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "179000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "4901"
+                    }
+                },
+                {
+                    "chId": "004702",
+                    "chName": "中央十套高清",
+                    "chNo": "568",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "203000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "4702"
+                    }
+                },
+                {
+                    "chId": "001502",
+                    "chName": "求索生活高清",
+                    "chNo": "601",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "275000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "1502"
+                    }
+                },
+                {
+                    "chId": "00000000000000000000000000005188",
+                    "chName": "北京卫视高清",
+                    "chNo": "517",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "546000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "2801"
+                    }
+                },
+                {
+                    "chId": "00000000000000000000000000005198",
+                    "chName": "江苏卫视高清",
+                    "chNo": "522",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "171000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2901"
+                    }
+                },
+                {
+                    "chId": "30CP230120140408871400",
+                    "chName": "中央六套高清",
+                    "chNo": "564",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "443000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2501"
+                    }
+                },
+                {
+                    "chId": "30CP230120140408871200",
+                    "chName": "中央五套高清",
+                    "chNo": "563",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "195000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "3402"
+                    }
+                },
+                {
+                    "chId": "00000000000000000000000000005187",
+                    "chName": "浙江卫视高清",
+                    "chNo": "508",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "634000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "3002"
+                    }
+                }
+            ]
+        },
+        {
+            "bId": 1020,
+            "bName": "看吧",
+            "firstChId": "100002",
+            "sortby": 2,
+            "chList": [
+                {
+                    "chId": "60571261",
+                    "chName": "日韩剧场",
+                    "chNo": "906",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "251000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2204"
+                    }
+                },
+                {
+                    "chId": "60571253",
+                    "chName": "港台剧场",
+                    "chNo": "902",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "251000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2203"
+                    }
+                },
+                {
+                    "chId": "60571419",
+                    "chName": "亚洲影院",
+                    "chNo": "900",
+                    "isHdCh": 1,
+                    "hdChId": "2723700",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "251000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2201"
+                    }
+                }
+            ]
+        },
+        {
+            "bId": 1030,
+            "bName": "私家",
+            "firstChId": "100002",
+            "sortby": 3,
+            "chList": [
+                {
+                    "chId": "003108",
+                    "chName": "彩民在线",
+                    "chNo": "135",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "554000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "3108"
+                    }
+                },
+                {
+                    "chId": "1401",
+                    "chName": "四海钓鱼",
+                    "chNo": "119",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "459000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "1401"
+                    }
+                }
+            ]
+        },
+        {
+            "bId": 1040,
+            "bName": "特许",
+            "firstChId": "100002",
+            "sortby": 4,
+            "chList": [
+                {
+                    "chId": "00601",
+                    "chName": "凤凰中文Ⅱ",
+                    "chNo": "257",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "371000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "601"
+                    }
+                },
+                {
+                    "chId": "00603",
+                    "chName": "星空卫视Ⅰ",
+                    "chNo": "253",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "371000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "603"
+                    }
+                },
+                {
+                    "chId": "00703",
+                    "chName": "星空卫视Ⅰ",
+                    "chNo": "210",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "379000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "703"
+                    }
+                }
+            ]
+        },        
+        {
+            "bId": 1050,
+            "bName": "购物",
+            "firstChId": "100002",
+            "sortby": 5,
+            "chList": [
+                {
+                    "chId": "001406",
+                    "chName": "优购物",
+                    "chNo": "28",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "459000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "1406"
+                    }
+                },
+                {
+                    "chId": "003608",
+                    "chName": "东方购物",
+                    "chNo": "21",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "147000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "3608"
+                    }
+                }
+            ]
+        },
+        {
+            "bId": 1060,
+            "bName": "少儿",
+            "firstChId": "100002",
+            "sortby": 6,
+            "chList": [
+                {
+                    "chId": "003103",
+                    "chName": "英语辅导",
+                    "chNo": "137",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "554000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "3103"
+                    }
+                },
+                {
+                    "chId": "002709",
+                    "chName": "宝贝家",
+                    "chNo": "157",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "594000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2709"
+                    }
+                },
+                {
+                    "chId": "00000000000000000000000000000242",
+                    "chName": "浙江少儿",
+                    "chNo": "15",
+                    "isHdCh": 1,
+                    "hdChId": "5902",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "243000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "801"
+                    }
+                },
+                {
+                    "chId": "00807",
+                    "chName": "炫动卡通",
+                    "chNo": "58",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "243000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "807"
+                    }
+                },
+                {
+                    "chId": "001101",
+                    "chName": "少儿动漫",
+                    "chNo": "908",
+                    "isHdCh": 1,
+                    "hdChId": "3943253",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "339000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "1101"
+                    }
+                },
+                {
+                    "chId": "3943253",
+                    "chName": "少儿动漫HD",
+                    "chNo": "908",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "642000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "3903"
+                    }
+                }
+            ]
+        },
+        {
+            "bId": 1070,
+            "bName": "体育",
+            "firstChId": "100002",
+            "sortby": 7,
+            "chList": [
+                {
+                    "chId": "003107",
+                    "chName": "天元围棋",
+                    "chNo": "112",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "554000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "3107"
+                    }
+                },
+                {
+                    "chId": "003102",
+                    "chName": "欧洲足球",
+                    "chNo": "138",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "554000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "3102"
+                    }
+                },
+                {
+                    "chId": "30CP230120140408871200",
+                    "chName": "中央五套高清",
+                    "chNo": "138",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "195000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "3402"
+                    }
+                },
+                {
+                    "chId": "00000000000000000000000000000234",
+                    "chName": "中央五套",
+                    "chNo": "20",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "403000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "302"
+                    }
+                },
+                {
+                    "chId": "00000000000000000000000000005212",
+                    "chName": "CCTV5+体育赛事",
+                    "chNo": "576",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "267000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "4501"
+                    }
+                },
+                {
+                    "chId": "001401",
+                    "chName": "四海钓鱼",
+                    "chNo": "119",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "459000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "1401"
+                    }
+                },
+                {
+                    "chId": "001403",
+                    "chName": "电子体育",
+                    "chNo": "117",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "459000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "1403"
+                    }
+                },
+                {
+                    "chId": "003502",
+                    "chName": "动感英超HD",
+                    "chNo": "806",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "259000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "3502"
+                    }
+                },
+                {
+                    "chId": "003502",
+                    "chName": "快乐垂钓",
+                    "chNo": "184",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "275000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "1508"
+                    }
+                },
+                {
+                    "chId": "005201",
+                    "chName": "电子竞技HD",
+                    "chNo": "808",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "363000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "5201"
+                    }
+                },
+                {
+                    "chId": "0002005",
+                    "chName": "风云足球",
+                    "chNo": "106",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "411000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2005"
+                    }
+                },
+                {
+                    "chId": "002107",
+                    "chName": "高尔夫网球",
+                    "chNo": "107",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "307000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2107"
+                    }
+                }
+            ]
+        },
+        {
+            "bId": 1080,
+            "bName": "记录",
+            "firstChId": "100002",
+            "sortby": 8,
+            "chList": [
+                {
+                    "chId": 1001,
+                    "chName": "浙江卫视",
+                    "chNo": "8",
+                    "isHdCh": 1,
+                    "hdChId": "508",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "这是浙江卫视台",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "",
+                        "mod": "",
+                        "rate": "6875000",
+                        "sid": ""
+                    }
+                },
+                {
+                    "chId": 1002,
+                    "chName": "山东卫视",
+                    "chNo": "9",
+                    "isHdCh": 1,
+                    "hdChId": "509",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "这是山东卫视台",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "",
+                        "mod": "",
+                        "rate": "6875000",
+                        "sid": ""
+                    }
+                }
+            ]
+        },
+        {
+            "bId": 1090,
+            "bName": "高清",
+            "firstChId": "100002",
+            "sortby": 9,
+            "chList": [
+                {
+                    "chId": "005601",
+                    "chName": "杭州影视高清",
+                    "chNo": "504",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "490000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "5601"
+                    }
+                },
+                {
+                    "chId": "005603",
+                    "chName": "杭州少儿高清",
+                    "chNo": "505",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "490000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "5603"
+                    }
+                },
+                {
+                    "chId": "5502",
+                    "chName": "西湖明珠高清",
+                    "chNo": "502",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "163000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "5502"
+                    }
+                },
+                {
+                    "chId": "005703",
+                    "chName": "民生休闲高清",
+                    "chNo": "513",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "187000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "5703"
+                    }
+                },
+                {
+                    "chId": "5802",
+                    "chName": "浙江影视高清",
+                    "chNo": "512",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "139000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "5802"
+                    }
+                },
+                {
+                    "chId": "005902",
+                    "chName": "浙江少儿高清",
+                    "chNo": "515",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "131000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "5902"
+                    }
+                },
+                {
+                    "chId": "004901",
+                    "chName": "安徽卫视高清",
+                    "chNo": "527",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "179000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "4901"
+                    }
+                },
+                {
+                    "chId": "004702",
+                    "chName": "中央十套高清",
+                    "chNo": "568",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "203000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "4702"
+                    }
+                },
+                {
+                    "chId": "001502",
+                    "chName": "求索生活高清",
+                    "chNo": "601",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "275000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "1502"
+                    }
+                },
+                {
+                    "chId": "00000000000000000000000000005188",
+                    "chName": "北京卫视高清",
+                    "chNo": "517",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "546000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "2801"
+                    }
+                },
+                {
+                    "chId": "00000000000000000000000000005198",
+                    "chName": "江苏卫视高清",
+                    "chNo": "522",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "171000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2901"
+                    }
+                },
+                {
+                    "chId": "30CP230120140408871400",
+                    "chName": "中央六套高清",
+                    "chNo": "564",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "443000000",
+                        "mod": "QAM64",
+                        "rate": "6900000",
+                        "sid": "2501"
+                    }
+                },
+                {
+                    "chId": "30CP230120140408871200",
+                    "chName": "中央五套高清",
+                    "chNo": "563",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "195000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "3402"
+                    }
+                },
+                {
+                    "chId": "00000000000000000000000000005187",
+                    "chName": "浙江卫视高清",
+                    "chNo": "508",
+                    "isHdCh": 0,
+                    "hdChId": "",
+                    "chLogoURL": "http://****/***/ZJWS.jpg",
+                    "type": 1,
+                    "desc": "",
+                    "ipLive": {
+                        "playURL": "rtsp://CRDdomain/channel?token=abcdefgxxxxx&isHD=0&isIpqam=0&subcontentid=123456&owchid=mpeg2timeshift"
+                    },
+                    "dvbLive": {
+                        "freq": "634000000",
+                        "mod": "QAM64",
+                        "rate": "6875000",
+                        "sid": "3002"
+                    }
+                }
+            ]
+        }
+    ]
+}
