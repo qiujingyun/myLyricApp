@@ -465,11 +465,11 @@ public class MainActivity extends BaseActivity
 								Aanimate.showOnFocusTranslAnimation(v);
 							}
 						});
-						childHandler.removeMessages(UPDATAFRAGMENT);
+//						childHandler.removeMessages(UPDATAFRAGMENT);
 //						if (updatafragmentisdelay) {
 //							childHandler.sendMessageDelayed(childHandler.obtainMessage(UPDATAFRAGMENT, i, 0), 500);
 //						} else {
-							childHandler.sendMessageDelayed(childHandler.obtainMessage(UPDATAFRAGMENT, i, 0), 0);
+							childHandler.sendMessageDelayed(childHandler.obtainMessage(UPDATAFRAGMENT, i, 0), 100);
 //						}
 
 					} else {
@@ -508,10 +508,10 @@ public class MainActivity extends BaseActivity
 					transaction.addToBackStack(null);
 					// transaction.hide(fragments.get(index));
 					transaction.commit();
-					BaseFragment baseFragment = (BaseFragment) (fragments.get(index));
-					if (baseFragment.isUp) {
-						baseFragment.setMessage(1);
-					}
+//					BaseFragment baseFragment = (BaseFragment) (fragments.get(index));
+//					if (baseFragment.isUp) {
+//						baseFragment.setMessage(1);
+//					}
 				}
 			} catch (Exception e) {
 				e.printStackTrace();

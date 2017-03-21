@@ -216,7 +216,7 @@ public class LiveFragment extends BaseFragment implements OnFocusChangeListener,
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		Log.e("Live fr Line 80 ", "onCreate");
-		handlerThread = new HandlerThread("");
+		handlerThread = new HandlerThread("live");
 		handlerThread.start();
 		childThread = new HandlerThread("live_thread");
 		childThread.start();
@@ -821,7 +821,7 @@ public class LiveFragment extends BaseFragment implements OnFocusChangeListener,
 				// 筛选和当前时间一致的节目单
 				for (WasuEdit wasuEdit : wasuEditChRelated.wes) {
 					if(wasuEdit != null) {
-						if (isCurrentTimeSpace(wasuEdit.startTime, wasuEdit.endTime)) {
+						if (isInCurrentTime(wasuEdit.startTime, wasuEdit.endTime)) {
 							itemEdit = wasuEdit;
 							break;
 						}
@@ -845,7 +845,7 @@ public class LiveFragment extends BaseFragment implements OnFocusChangeListener,
 				// 筛选和当前时间一致的节目单
 				for (WasuEdit wasuEdit : wasuEditChRelated.wes) {
 					if (wasuEdit != null) {
-						if (isCurrentTimeSpace(wasuEdit.startTime, wasuEdit.endTime)) {
+						if (isInCurrentTime(wasuEdit.startTime, wasuEdit.endTime)) {
 							itemEdit = wasuEdit;
 							break;
 						}
@@ -1172,6 +1172,28 @@ public class LiveFragment extends BaseFragment implements OnFocusChangeListener,
 		long end = Utils.getLongTimeFromString(endTime);
 		if (st != -1 && end != -1) {
 			if (currentTime > st && currentTime < end) {
+				inTimeSpace = true;
+			}
+		}
+		return inTimeSpace;
+	}
+	
+	/**
+	 * @Title: isInCurrentTime
+	 * @Description: TODO(判断当前时间是否在所给时间段)
+	 * @param @param startTime
+	 * @param @param endTime
+	 * @param @return 设定文件
+	 * @return boolean 返回类型
+	 * @throws
+	 */
+	private boolean isInCurrentTime(String startTime, String endTime) {
+		boolean inTimeSpace = false;
+		long currentTime = System.currentTimeMillis();
+		long end = Utils.getLongTimeFromString(endTime);
+		if (end != -1 && currentTime < end) {
+			long st = Utils.getLongTimeFromString(startTime);
+			if (st != -1 && st > currentTime) {
 				inTimeSpace = true;
 			}
 		}

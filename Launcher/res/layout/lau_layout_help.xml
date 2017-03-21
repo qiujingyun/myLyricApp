@@ -3,6 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/lau__wasu_background" >
+    
+    <com.wasu.launcher.view.TestView
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.wasu.launcher.view.TestView>    
 
     <TextView
         android:id="@+id/help_tx_1"
@@ -157,10 +163,4 @@
             android:textColor="#FF000000"
             android:textSize="@dimen/sm_33" />
     </LinearLayout>
-    
-    <com.wasu.launcher.view.TestView
-        android:id="@+id/test"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-    </com.wasu.launcher.view.TestView>    
 </RelativeLayout>

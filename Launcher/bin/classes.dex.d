@@ -109,6 +109,7 @@
 /home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/Launcher/bin/classes/com/wasu/launcher/view/NetworkDialog.class \
 /home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/Launcher/bin/classes/com/wasu/launcher/view/ScrollViewProgress$OnScrollProgressListener.class \
 /home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/Launcher/bin/classes/com/wasu/launcher/view/MyGridView.class \
+/home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/Launcher/bin/classes/com/wasu/launcher/view/TestView$2.class \
 /home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/Launcher/bin/classes/com/wasu/launcher/view/VerticalSeekBar.class \
 /home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/Launcher/bin/classes/com/wasu/launcher/view/MarqueeTextView.class \
 /home/wasu/project/wasu-project/DVT_OTT/DVB_OTT_V100R001C01B02(TCL)/3.src/trunc/DVB_OTT_TCL_V100R001C01B02/Launcher/bin/classes/com/wasu/launcher/view/NetworkDialog$1.class \

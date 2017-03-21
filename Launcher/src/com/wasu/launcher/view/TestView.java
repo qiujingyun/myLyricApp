@@ -5,13 +5,16 @@ import com.wasu.launcher.R;
 
 import android.R.color;
 import android.R.integer;
+import android.app.Activity;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.FocusFinder;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
@@ -22,8 +25,9 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.view.View.OnClickListener;
+import android.view.View.OnFocusChangeListener;
 
-public class TestView extends RelativeLayout implements OnClickListener{
+public class TestView extends RelativeLayout implements OnClickListener, OnFocusChangeListener{
 	Context context;
 	private String TAG = "qjy";
 	private ListView mylv;
@@ -33,6 +37,7 @@ public class TestView extends RelativeLayout implements OnClickListener{
 	private TextView t1;
 	private TextView t2;
 	private TextView t3;
+	public Handler mHandler;
 	
 	private int currentID = 0;
 	ArrayList<String> info;
@@ -54,7 +59,6 @@ public class TestView extends RelativeLayout implements OnClickListener{
 		View.inflate(context, R.layout.test, this);
 		init(this);
 	}
-	
 
 	private void init(View view) {
 		vod_lv = (RelativeLayout)view.findViewById(R.id.vod_lv);
@@ -64,9 +68,24 @@ public class TestView extends RelativeLayout implements OnClickListener{
 		t2 = (TextView) view.findViewById(R.id.t2);
 		t3 = (TextView) view.findViewById(R.id.t3);
 		
+		t1.setOnFocusChangeListener(this);
+		t2.setOnFocusChangeListener(this);
+		t3.setOnFocusChangeListener(this);
+		
 		info = new ArrayList<String>(){{add("item1forlonglonglongcontent");add("item1forlonglonglongcontent");add("item3");add("item4");add("item5");add("item6");add("item7");add("item8");add("item9");}};
 		mAdapter = new ListViewAdpter(context.getApplicationContext(), info);
 		mylv.setAdapter(mAdapter);
+		mylv.requestFocus();
+		
+		mHandler = new Handler();
+	}
+	
+	@Override
+	public void onFocusChange(View v, boolean hasFocus) {
+		View tmpView = null;
+		if (!hasFocus) {
+			//tmpView = FocusFinder.getInstance().findNextFocus(this, v, View.FOCUS_DOWN);
+		}
 	}
 	
     @Override  
@@ -163,13 +182,11 @@ public class TestView extends RelativeLayout implements OnClickListener{
 	            return convertView;  
 	    }    
 	}
-
-    @Override
-    public boolean isFocused() {
-        return true;
-    }
     
 	public boolean dispatchKeyEvent(KeyEvent event) {
+		View oldFocusView;
+		View newFocusView;
+		
 		if (event.getAction() == KeyEvent.ACTION_UP) {
 			switch(event.getKeyCode()){
 			case KeyEvent.KEYCODE_DPAD_UP:
@@ -183,7 +200,14 @@ public class TestView extends RelativeLayout implements OnClickListener{
 						xz.setVisibility(View.GONE);
 					}
 					return true;
-				}				
+				}		
+				/*
+				oldFocusView = this.getRootView().findFocus();
+				newFocusView = oldFocusView.focusSearch(View.FOCUS_DOWN);
+				if (newFocusView != null) {
+					newFocusView.requestFocus();
+					return true;
+				}	*/
 				break;
 			case KeyEvent.KEYCODE_DPAD_DOWN:
 				Log.e(TAG, "keycode is KEYCODE_DPAD_DOWN");
@@ -196,11 +220,19 @@ public class TestView extends RelativeLayout implements OnClickListener{
 						xz.setVisibility(View.GONE);
 					}
 					return true;
-				}				
-				View oldFocusView = this.getRootView().findFocus();
-				View newFocusView = oldFocusView.focusSearch(View.FOCUS_DOWN);
-				newFocusView.requestFocus();
-				return true;	
+				}		
+				/*
+				FocusFinder.getInstance().findNextFocus(this, mylv, View.FOCUS_RIGHT);
+				oldFocusView = this.getRootView().findFocus();
+				if (context instanceof Activity) {
+					int aa = ((Activity) context).getWindow().getDecorView().findFocus().getId();
+				}
+				newFocusView = oldFocusView.focusSearch(View.FOCUS_DOWN);
+				if (newFocusView != null) {
+					newFocusView.requestFocus();
+					return true;
+				}	 */
+				break;
 			case KeyEvent.KEYCODE_DPAD_RIGHT:
 			case KeyEvent.KEYCODE_DPAD_CENTER:
 			case KeyEvent.KEYCODE_ENTER:
@@ -222,6 +254,18 @@ public class TestView extends RelativeLayout implements OnClickListener{
 
 					xz.setVisibility(View.VISIBLE);
 					xz.postInvalidate();
+					
+					mHandler.postDelayed(new Runnable() {						
+						@Override
+						public void run() {
+							if (t1.getVisibility() == View.VISIBLE) {
+								t1.requestFocus();
+							}
+						}
+					}, 1000);
+					
+					//boolean r = t1.requestFocus();
+					//Log.e(TAG, "t1 request focus: "+ (r == true ? "true":"false"));
 					return true;
 				}
 				break;				

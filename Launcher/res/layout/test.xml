@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:descendantFocusability="afterDescendants"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
 
@@ -37,7 +38,7 @@
             android:layout_height="@dimen/sm_160"
             android:paddingLeft="10dip"
             android:visibility="gone"
-            android:focusable="true"
+            android:descendantFocusability="afterDescendants"
             android:background="@drawable/vod_bg" 
             android:orientation="vertical" >
 

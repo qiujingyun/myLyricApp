@@ -68,9 +68,6 @@ public class HelpActivity extends BaseActivity implements
 		initView();
 		sm = new SDKOperationManager(context);
 		sm.registerSDKOperationListener(this);
-		
-		TestView m = (TestView) findViewById(R.id.test);
-		m.requestFocus();
 	}
 
 	private SDKOperationManager sm;
@@ -87,7 +84,6 @@ public class HelpActivity extends BaseActivity implements
 			helpImage.get(i).setOnClickListener(this);
 		}
 		textView2.post(new Runnable() {
-
 			@Override
 			public void run() {
 				textView2.setText(textView2.getText() + getVersion());

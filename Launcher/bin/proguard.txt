@@ -153,7 +153,7 @@
 # view res/layout/fragment_vod.xml #generated:6
 -keep class com.wasu.launcher.view.SmoothHorizontalScrollView { <init>(...); }
 
-# view res/layout/lau_layout_help.xml #generated:161
+# view res/layout/lau_layout_help.xml #generated:7
 -keep class com.wasu.launcher.view.TestView { <init>(...); }
 
 # view res/layout/lau_layout_live.xml #generated:627
